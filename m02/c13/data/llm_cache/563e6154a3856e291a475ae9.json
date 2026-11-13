@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Đơn AT067725 đã giao thành công lúc 10:05.", "intent": "order_status"}, "raw": "{ \"reply\": \"Đơn AT067725 đã giao thành công lúc 10:05.\", \"intent\": \"order_status\" }", "in_tok": 436, "out_tok": 37, "seconds": 18.15, "model": "qwen3:1.7b"}

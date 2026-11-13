@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Đơn AT011391 sẽ tới trong khoảng 10 phút.", "intent": "eta"}, "raw": "{\"reply\": \"Đơn AT011391 sẽ tới trong khoảng 10 phút.\", \"intent\": \"eta\"}", "in_tok": 476, "out_tok": 30, "seconds": 25.69, "model": "qwen3:1.7b"}

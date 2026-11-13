@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien se xem xem don co phai tra tien hay khong.", "intent": "other"}, "raw": "{ \"reply\": \"Nhan vien se xem xem don co phai tra tien hay khong.\", \"intent\": \"other\" }", "in_tok": 405, "out_tok": 34, "seconds": 31.8, "model": "qwen3:1.7b"}

@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien se chuyen sang xom vui.", "intent": "change_address"}, "raw": "{ \"reply\": \"Nhan vien se chuyen sang xom vui.\", \"intent\": \"change_address\" }", "in_tok": 409, "out_tok": 28, "seconds": 31.39, "model": "qwen3:1.7b"}

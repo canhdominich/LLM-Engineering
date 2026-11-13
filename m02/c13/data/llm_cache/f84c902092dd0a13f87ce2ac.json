@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien sẽ xác nhận địa điểm giao trước khi đơn được giao.", "intent": "change_address"}, "raw": "{\"reply\": \"Nhan vien sẽ xác nhận địa điểm giao trước khi đơn được giao.\", \"intent\": \"change_address\"}", "in_tok": 504, "out_tok": 31, "seconds": 33.33, "model": "qwen3:1.7b"}

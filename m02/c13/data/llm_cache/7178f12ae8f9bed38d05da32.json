@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Đơn hỏa tốc đi Đầu Phố sẽ được giao trong 60 phút.", "intent": "order_status"}, "raw": "{ \"reply\": \"Đơn hỏa tốc đi Đầu Phố sẽ được giao trong 60 phút.\", \"intent\": \"order_status\" }", "in_tok": 407, "out_tok": 34, "seconds": 31.17, "model": "qwen3:1.7b"}

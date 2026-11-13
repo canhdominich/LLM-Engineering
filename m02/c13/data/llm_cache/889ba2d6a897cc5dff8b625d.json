@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Văn phòng ở Chợ Mới nằm tại Khu Công Nghiệp, số 5 Đường May.", "intent": "other"}, "raw": "{\"reply\": \"Văn phòng ở Chợ Mới nằm tại Khu Công Nghiệp, số 5 Đường May.\", \"intent\": \"other\"}", "in_tok": 249, "out_tok": 35, "seconds": 25.78, "model": "qwen3:1.7b"}

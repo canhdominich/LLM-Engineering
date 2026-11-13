@@ -1,0 +1,50 @@
+[project]
+name = "anhti-ai-labs"
+version = "0.1.0"
+description = "Lab code for the GDev AI Engineering program"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "scipy",
+  "matplotlib",
+  "pyarrow",
+  "torch",
+  "transformers",
+  "tokenizers",
+  "tiktoken",
+  "sentence-transformers",
+  "peft",
+  "pydantic",
+  "fastapi",
+  "uvicorn",
+  "httpx",
+  "openai",
+  "psycopg[binary]",
+  "pgvector",
+  "redis",
+  "pytest",
+  "langgraph",
+  "langgraph-checkpoint-postgres",
+  "mcp",
+  "rank-bm25",
+  "pypdf",
+  "python-docx",
+  "beautifulsoup4",
+  "pyjwt",
+  "prometheus-client",
+  "opentelemetry-sdk",
+  "reportlab>=5.1.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

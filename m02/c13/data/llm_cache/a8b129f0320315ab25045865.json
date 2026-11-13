@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien se check trong 24 gio, chuc nha.", "intent": "refund"}, "raw": "{ \"reply\": \"Nhan vien se check trong 24 gio, chuc nha.\", \"intent\": \"refund\" }", "in_tok": 517, "out_tok": 33, "seconds": 22.74, "model": "qwen3:1.7b"}

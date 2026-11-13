@@ -1,0 +1,40 @@
+{"id": "G01", "intent": "order_status", "reply": "Mã vận đơn AT033270 đang ở Cau Go, đang trong quá trình giao."}
+{"id": "G02", "intent": "order_status", "reply": "Don at009884 hien dang o trang thai 'picked_up'."}
+{"id": "G03", "intent": "order_status", "reply": "Đơn AT006985 đã được giao vào 09:42, trạng thái giao hàng thành công. Nhân viên sẽ kiểm tra lại trong 24 giờ nếu có yêu cầu hoàn tiền."}
+{"id": "G04", "intent": "order_status", "reply": "Nhan vien giao hang sẽ xác nhận địa điểm và thời gian giao. Đơn AT015679 đang trong quá trình giao."}
+{"id": "G05", "intent": "order_status", "reply": "Đơn AT003796 đã được tạo, đang trong trạng thái 'created'. Nhân viên sẽ kiểm tra và xác nhận địa chỉ trước khi giao."}
+{"id": "G06", "intent": "eta", "reply": "Đơn AT046354 sẽ tới trong khoảng 25 phút."}
+{"id": "G07", "intent": "eta", "reply": "Đơn AT011391 sẽ tới trong khoảng 10 phút."}
+{"id": "G08", "intent": "order_status", "reply": "Nhan vien co bao giao don AT041847 trong khoang 09:00-11:00 hinh lai."}
+{"id": "G09", "intent": "order_status", "reply": "Nhan vien giao don thong tin don AT031201 a."}
+{"id": "G10", "intent": "order_status", "reply": "Đơn hỏa tốc đi Đầu Phố sẽ được giao trong 60 phút."}
+{"id": "G11", "intent": "order_status", "reply": "Chúng ta xin lỗi vì đơn hỏa tốc đã trễ 45 phút. Nhóm hỗ trợ sẽ kiểm tra và xử lý trong 24 giờ."}
+{"id": "G12", "intent": "order_status", "reply": "Nhan vien co bao xet don hoa toc ma tre 50 phut, tht vong qua."}
+{"id": "G13", "intent": "order_status", "reply": "Chúng tôi xin lỗi vì đơn vị của bạn trễ. Nhân viên sẽ kiểm tra và thông báo trạng thái trong 24 giờ."}
+{"id": "G14", "intent": "change_address", "reply": "Nhan vien se xac minh dia chi."}
+{"id": "G15", "intent": "order_status", "reply": "Nhan vien se giao hang cham nhu rua, cho mai ko thay."}
+{"id": "G16", "intent": "refund", "reply": "Nhan vien co biet chua. Nhan vien se kiem tra trong 24 gio."}
+{"id": "G17", "intent": "order_status", "reply": "Don at028956 da hoan tien chua, doi mot tuan roi"}
+{"id": "G18", "intent": "change_address", "reply": "Nhan vien se xem ma don AT046486 va xac minh dia chi."}
+{"id": "G19", "intent": "other", "reply": "Nhan vien se xem xem don co phai tra tien hay khong."}
+{"id": "G20", "intent": "other", "reply": "Nhan vien se xem xem co duoc hoan phi khong."}
+{"id": "G21", "intent": "change_address", "reply": "Nhan vien se xac minh dia chi moi."}
+{"id": "G22", "intent": "change_address", "reply": "Nhan vien se xac minh dia chi moi."}
+{"id": "G23", "intent": "change_address", "reply": "Nhan vien se chuyen don at047838 sang khu ben song."}
+{"id": "G24", "intent": "order_status", "reply": "Gio đơn AT027225 ra Nhà Sách Ông Đồ. Nhân viên sẽ kiểm tra tình trạng đơn trong 24 giờ."}
+{"id": "G25", "intent": "change_address", "reply": "Nhan vien se chuyen sang xom vui."}
+{"id": "G26", "intent": "other", "reply": "Chào bạn, bạn có thể cung cấp thêm thông tin về đơn hàng của mình không? Nếu bạn muốn giao thuốc, hãy cung cấp mã đơn (ma don) để chúng tôi kiểm tra."}
+{"id": "G27", "intent": "other", "reply": "Nhan vien co ban thung carton khong."}
+{"id": "G28", "intent": "other", "reply": "Văn phòng ở Chợ Mới nằm tại Khu Công Nghiệp Chợ Mới, số 12 Duong Lua."}
+{"id": "G29", "intent": "other", "reply": "Vui lòng mở ứng dụng và chọn 'Tao don' để tạo đơn mới."}
+{"id": "G30", "intent": "other", "reply": "Bạn có thể tạo đơn mới bằng cách mở ứng dụng và chọn 'Tạo đơn'."}
+{"id": "G31", "intent": "eta", "reply": "Đơn của bạn sẽ đến vào khoảng 30 phút nữa. Nhân viên sẽ kiểm tra và thông báo lại sau 24 giờ nếu có chậm trễ."}
+{"id": "G32", "intent": "change_address", "reply": "Nhan vien sẽ xác nhận địa điểm giao trước khi đơn được giao."}
+{"id": "G33", "intent": "refund", "reply": "Nhan vien se check trong 24 gio, chuc nha."}
+{"id": "G34", "intent": "change_address", "reply": "Nhan vien sẽ kiểm tra và đổi địa chỉ đơn AT064511 sang Chung Cư Xóm Vui block B."}
+{"id": "G35", "intent": "order_status", "reply": "Đơn AT067725 đã giao thành công lúc 10:05."}
+{"id": "G36", "intent": "refund", "reply": "Nhan vien se check order within 24 hours."}
+{"id": "G37", "intent": "refund", "reply": "Nhan vien se check truoc 24 gio. Voucher 100k se được tra cuu khi truoc khi don duoc giao."}
+{"id": "G38", "intent": "eta", "reply": "Đơn AT076610 đang trong quá trình giao, dự kiến đến trong 5 phút. Nhân viên sẽ kiểm tra và thông báo lại sau."}
+{"id": "G39", "intent": "eta", "reply": "Đơn AT079946 sẽ đến khoảng 25 phút nữa. Nhân viên sẽ kiểm tra và thông báo lại sau 24 giờ nếu có chậm trễ."}
+{"id": "G40", "intent": "order_status", "reply": "Đơn AT082213 đã giao và được xác nhận. Nhân viên sẽ kiểm tra lại để đảm bảo hàng đã được nhận. Nếu có bất kỳ vấn đề nào, vui lòng báo lại."}

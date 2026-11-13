@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien se chuyen don at047838 sang khu ben song.", "intent": "change_address"}, "raw": "{ \"reply\": \"Nhan vien se chuyen don at047838 sang khu ben song.\", \"intent\": \"change_address\" }", "in_tok": 474, "out_tok": 37, "seconds": 20.55, "model": "qwen3:1.7b"}

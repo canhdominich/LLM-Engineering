@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Bạn cần mở ứng dụng và chọn 'Tạo đơn' để tạo đơn mới.", "intent": "other"}, "raw": "{\"reply\": \"Bạn cần mở ứng dụng và chọn 'Tạo đơn' để tạo đơn mới.\", \"intent\": \"other\"}", "in_tok": 248, "out_tok": 29, "seconds": 19.9, "model": "qwen3:1.7b"}

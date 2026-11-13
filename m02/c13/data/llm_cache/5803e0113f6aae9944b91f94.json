@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Đơn AT041847 đang trong trạng thái ", "intent": "order_status"}, "raw": "{\"reply\": \"Đơn AT041847 đang trong trạng thái \",\"intent\": \"order_status\"}", "in_tok": 338, "out_tok": 28, "seconds": 19.49, "model": "qwen3:1.7b"}

@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Bạn có thể tạo đơn mới bằng cách mở ứng dụng và chọn 'Tạo đơn' để bắt đầu.", "intent": "order_status"}, "raw": "{\"reply\": \"Bạn có thể tạo đơn mới bằng cách mở ứng dụng và chọn 'Tạo đơn' để bắt đầu.\", \"intent\": \"order_status\"}", "in_tok": 248, "out_tok": 35, "seconds": 25.83, "model": "qwen3:1.7b"}

@@ -1,0 +1,20 @@
+{
+  "api": {
+    "source": "https://developers.openai.com/api/docs/pricing",
+    "checked_on": "2026-11-05",
+    "unit": "USD per 1M tokens, standard tier, short context",
+    "min_cacheable_tokens": 1024,
+    "models": {
+      "gpt-6-luna": {"input": 0.10, "cached_input": 0.01, "cache_write_30m": 0.125, "output": 0.50,
+                      "batch": {"input": 0.05, "cached_input": 0.005, "cache_write_30m": 0.0625, "output": 0.25}},
+      "gpt-6.1-sol": {"input": 2.00, "cached_input": 0.10, "cache_write_30m": 2.50, "output": 10.00,
+                       "batch": {"input": 1.00, "cached_input": 0.05, "cache_write_30m": 1.25, "output": 5.00}}
+    }
+  },
+  "self_host": {
+    "note": "assumption for teaching, not a quote from any provider; replace with your own numbers",
+    "server_usd_per_month": 60.0,
+    "ops_hours_per_month": 8,
+    "ops_usd_per_hour": 15.0
+  }
+}

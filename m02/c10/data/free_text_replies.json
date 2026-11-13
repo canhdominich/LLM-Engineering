@@ -1,0 +1,8 @@
+{
+ "R02": "```json\n{\n  \"pickup_district\": \"Cầu Gỗ\",\n  \"dropoff_district\": \"Khu Công Nghiệp\",\n  \"items\": [\"4 túi\"],\n  \"cod_vnd\": \"690000\",\n  \"service\": \"Giặt Là Cô Út\"\n}\n```",
+ "R06": "```json\n{\n  \"pickup_district\": \"Đầu Phố\",\n  \"dropoff_district\": \"Bãi Biển\",\n  \"items\": [\"4 gói từ Trà Sữa Cô Na\"],\n  \"cod_vnd\": \"2000000\",\n  \"service\": \"Thu\"\n}\n```",
+ "R09": "```json\n{\n  \"pickup_district\": \"Đồi Thông\",\n  \"dropoff_district\": \"Xóm Vui\",\n  \"items\": [\"2 túi\"],\n  \"cod_vnd\": \"2500000\",\n  \"service\": \"Không cần nhanh\"\n}\n```",
+ "R12": "```json\n{\n  \"pickup_district\": \"khu cong nghiep\",\n  \"dropoff_district\": \"bai bien\",\n  \"items\": [\"5 hop giao\"],\n  \"cod_vnd\": \"750000\",\n  \"service\": \"nho shop\"\n}\n```",
+ "R17": "```json\n{\n  \"pickup_district\": \"ben song\",\n  \"dropoff_district\": \"mỗi qua\",\n  \"items\": [\"9 thung tu\"],\n  \"cod_vnd\": 0,\n  \"service\": \"giao\"\n}\n```",
+ "R25": "```json\n{\n  \"pickup_district\": \"Tạp Hóa Cô Tấm, Đầu Phố\",\n  \"dropoff_district\": \"Bãi Biển\",\n  \"items\": [\"12 thùng\"],\n  \"cod_vnd\": \"1000000\",\n  \"service\": \"giao thường\"\n}\n```"
+}

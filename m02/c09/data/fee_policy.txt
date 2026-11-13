@@ -1,0 +1,6 @@
+Delivery fee rules of Giao Hang Anh Ti (Pho Rom Ra):
+1. Standard fee is 18000 VND for the first 3 km.
+2. Every extra km after 3 km costs 4000 VND; a started km counts as a full km (4.2 km means 2 extra km).
+3. Express service adds 15000 VND.
+4. Parcels heavier than 5 kg add 10000 VND.
+5. Members get 10% off the total fee, applied last.

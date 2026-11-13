@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Gio đơn AT027225 ra Nhà Sách Ông Đồ. Nhân viên sẽ kiểm tra tình trạng đơn trong 24 giờ.", "intent": "order_status"}, "raw": "{ \"reply\": \"Gio đơn AT027225 ra Nhà Sách Ông Đồ. Nhân viên sẽ kiểm tra tình trạng đơn trong 24 giờ.\", \"intent\": \"order_status\" }", "in_tok": 482, "out_tok": 49, "seconds": 23.22, "model": "qwen3:1.7b"}

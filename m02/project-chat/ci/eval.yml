@@ -1,0 +1,44 @@
+name: chat-eval
+
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      record:
+        description: "Call the real model and refresh evals/cache"
+        type: boolean
+        default: false
+
+jobs:
+  test-and-gate:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg17
+        env:
+          POSTGRES_USER: anhti
+          POSTGRES_PASSWORD: anhti
+          POSTGRES_DB: anhti
+        ports: ["55432:5432"]
+        options: --health-cmd "pg_isready -U anhti" --health-interval 5s --health-retries 10
+    env:
+      ANHTI_PG_DSN: postgresql://anhti:anhti@localhost:55432/anhti
+      LLM_PROVIDER: fake
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: uv sync
+      - name: Unit, API and safety tests (FakeLLM)
+        working-directory: m02/project-chat
+        run: PYTHONPATH=solution:../.. uv run pytest -q tests
+      - name: Eval gate on recorded replies
+        working-directory: m02/project-chat
+        run: PYTHONPATH=solution:../.. uv run python -m anhti_chat eval --out eval-report.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eval-report
+          path: m02/project-chat/eval-report.json

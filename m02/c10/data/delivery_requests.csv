@@ -1,0 +1,41 @@
+request_id,text,pickup_district,dropoff_district,items,cod_vnd,service
+R01,"lay hang o giat la co ut quan cau go, giao 12 thung toi dau pho, thu ho 400000 dong, giao gap nha",Cau Go,Dau Pho,12,400000,express
+R02,Nhờ shop qua Giặt Là Cô Út bên Cầu Gỗ lấy 4 túi giao sang Khu Công Nghiệp. Người nhận trả 690.000đ,Cau Go,Khu Cong Nghiep,4,690000,standard
+R03,"can giao gap mot hop tu bai bien di doi thong, khach tra truoc roi",Bai Bien,Doi Thong,1,0,express
+R04,"Mình ở Cầu Gỗ, muốn gửi 6 bó hoa cho bạn ở Xóm Vui, thu hộ giúp mình 820k",Cau Go,Xom Vui,6,820000,standard
+R05,"Đặt đơn: lấy tại Tiệm Bánh Cô Mận, Đồi Thông; giao Đầu Phố; 9 thùng; COD 2500k; giao thường",Doi Thong,Dau Pho,9,2500000,standard
+R06,"Đầu Phố nhận 4 gói từ Trà Sữa Cô Na ở Bãi Biển nha, thu 2000 nghìn",Bai Bien,Dau Pho,4,2000000,standard
+R07,"giao 11 gói từ Bãi Biển qua Chợ Mới trong 1 tiếng, không thu tiền",Bai Bien,Cho Moi,11,0,express
+R08,"Hỏa tốc: Tạp Hóa Cô Tấm (Bãi Biển) gửi 12 gói đến Chợ Mới, thu hộ 1200k",Bai Bien,Cho Moi,12,1200000,express
+R09,"Chuyển hai túi từ Đồi Thông về Xóm Vui giúp tôi, tiền hàng 2,5 triệu người nhận trả, không cần nhanh",Doi Thong,Xom Vui,2,2500000,standard
+R10,"bên mình ở Bãi Biển có 4 bó hoa cần đưa tới Cầu Gỗ, giao nhanh giúp, đã chuyển khoản",Bai Bien,Cau Go,4,0,express
+R11,"Lấy hàng ở Phở Bà Năm quận Xóm Vui, giao 8 bó hoa tới Bãi Biển, thu hộ 160k, giao gấp nha",Xom Vui,Bai Bien,8,160000,express
+R12,nho shop qua nha sach ong do ben khu cong nghiep lay 5 hop giao sang bai bien. nguoi nhan tra 750k,Khu Cong Nghiep,Bai Bien,5,750000,standard
+R13,"can giao gap 1 hop tu xom vui di ben song, khach tra truoc roi",Xom Vui,Ben Song,1,0,express
+R14,"Mình ở Xóm Vui, muốn gửi 9 thùng cho bạn ở Bãi Biển, thu hộ giúp mình 2500k",Xom Vui,Bai Bien,9,2500000,standard
+R15,"dat don: lay tai hoa nha man, bai bien; giao cau go; mot thung; cod 350.000d; giao thuong",Bai Bien,Cau Go,1,350000,standard
+R16,"Bãi Biển nhận 3 gói từ Giặt Là Cô Út ở Khu Công Nghiệp nha, thu 2,5 triệu",Khu Cong Nghiep,Bai Bien,3,2500000,standard
+R17,"giao 9 thung tu cho moi qua ben song trong 1 tieng, khong thu tien",Cho Moi,Ben Song,9,0,express
+R18,"Hỏa tốc: Tạp Hóa Cô Tấm (Bến Sông) gửi bốn hộp đến Bãi Biển, thu hộ 50k",Ben Song,Bai Bien,4,50000,express
+R19,"Chuyển 8 gói từ Bãi Biển về Chợ Mới giúp tôi, tiền hàng 320000 đồng người nhận trả, không cần nhanh",Bai Bien,Cho Moi,8,320000,standard
+R20,"bên mình ở Bến Sông có 2 thùng cần đưa tới Đầu Phố, giao nhanh giúp, đã chuyển khoản",Ben Song,Dau Pho,2,0,express
+R21,"Lấy hàng ở Giặt Là Cô Út quận Cầu Gỗ, giao 7 túi tới Đầu Phố, thu hộ 980.000đ, giao gấp nha",Cau Go,Dau Pho,7,980000,express
+R22,"Nhờ shop qua Tiệm Bánh Cô Mận bên Bãi Biển lấy 4 gói giao sang Bến Sông, giao gấp nha. Người nhận trả 140000 đồng",Bai Bien,Ben Song,4,140000,express
+R23,"cần giao gấp 7 túi từ Bến Sông đi Đồi Thông, khách trả trước rồi",Ben Song,Doi Thong,7,0,express
+R24,"minh o khu cong nghiep, muon gui 7 goi cho ban o xom vui, thu ho giup minh 2500 nghin",Khu Cong Nghiep,Xom Vui,7,2500000,standard
+R25,"Đặt đơn: lấy tại Tạp Hóa Cô Tấm, Đầu Phố; giao Bãi Biển; 12 thùng; COD 1tr; giao thường",Dau Pho,Bai Bien,12,1000000,standard
+R26,"dau pho nhan 9 goi tu ca phe chu tu o xom vui nha, thu 150000 dong",Xom Vui,Dau Pho,9,150000,standard
+R27,"giao 10 bó hoa từ Bến Sông qua Bãi Biển trong 1 tiếng, không thu tiền",Ben Song,Bai Bien,10,0,express
+R28,"Hỏa tốc: Phở Bà Năm (Bến Sông) gửi 12 gói đến Chợ Mới, thu hộ 1,2 triệu",Ben Song,Cho Moi,12,1200000,express
+R29,"chuyen hai bo hoa tu khu cong nghiep ve xom vui giup toi, tien hang 60 nghin nguoi nhan tra, khong can nhanh",Khu Cong Nghiep,Xom Vui,2,60000,standard
+R30,"bên mình ở Chợ Mới có 4 hộp cần đưa tới Đầu Phố, giao nhanh giúp, đã chuyển khoản",Cho Moi,Dau Pho,4,0,express
+R31,"Lấy hàng ở Quán Cơm Bác Tám quận Bãi Biển, giao 2 hộp tới Chợ Mới, thu hộ 220 nghìn",Bai Bien,Cho Moi,2,220000,standard
+R32,"nho shop qua ca phe chu tu ben cho moi lay 11 tui giao sang cau go, giao gap nha. nguoi nhan tra 1500 nghin",Cho Moi,Cau Go,11,1500000,express
+R33,"can giao gap 3 tui tu cho moi di doi thong, khach tra truoc roi",Cho Moi,Doi Thong,3,0,express
+R34,"Mình ở Xóm Vui, muốn gửi 1 hộp cho bạn ở Bãi Biển, thu hộ giúp mình 520 nghìn",Xom Vui,Bai Bien,1,520000,standard
+R35,"Đặt đơn: lấy tại Giặt Là Cô Út, Đầu Phố; giao Xóm Vui; 4 túi; COD 920.000đ; giao thường",Dau Pho,Xom Vui,4,920000,standard
+R36,"doi thong nhan ba tui tu tra sua co na o ben song nha, thu 270.000d",Ben Song,Doi Thong,3,270000,standard
+R37,"giao 1 hộp từ Cầu Gỗ qua Bến Sông trong 1 tiếng, không thu tiền",Cau Go,Ben Song,1,0,express
+R38,"Hỏa tốc: Cà Phê Chú Tư (Bến Sông) gửi một hộp đến Cầu Gỗ, thu hộ 1200 nghìn",Ben Song,Cau Go,1,1200000,express
+R39,"chuyen 9 goi tu doi thong ve cho moi giup toi, tien hang 470 nghin nguoi nhan tra, khong can nhanh",Doi Thong,Cho Moi,9,470000,standard
+R40,"ben minh o doi thong co 12 bo hoa can dua toi xom vui, giao nhanh giup, da chuyen khoan",Doi Thong,Xom Vui,12,0,express

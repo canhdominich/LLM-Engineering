@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Don at028956 da hoan tien chua, doi mot tuan roi", "intent": "order_status"}, "raw": "{ \"reply\": \"Don at028956 da hoan tien chua, doi mot tuan roi\",\"intent\": \"order_status\" }", "in_tok": 478, "out_tok": 38, "seconds": 15.69, "model": "qwen3:1.7b"}

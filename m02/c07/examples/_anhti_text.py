@@ -1,0 +1,48 @@
+HANDBOOK = [
+    "Giao Hàng Anh Tí nhận giao hàng trong 8 quận của Phố Rôm Rả.",
+    "Phí giao nội quận là 15.000 đồng cho mỗi đơn.",
+    "Phí giao liên quận là 25.000 đồng cho mỗi đơn.",
+    "Gói giao nhanh hứa giao trong 60 phút.",
+    "Gói tiêu chuẩn hứa giao trong 120 phút.",
+    "Tổng đài làm việc từ 7 giờ đến 21 giờ mỗi ngày.",
+    "Đơn được hủy miễn phí khi shipper chưa lấy hàng.",
+    "Tiền thu hộ được đối soát vào thứ Hai và thứ Năm.",
+    "Hàng bị vỡ cần báo trong 24 giờ kèm ảnh chụp.",
+    "Đổi địa chỉ sang quận khác có phụ phí 5.000 đồng.",
+    "Shipper gọi cho người nhận trước khi tới 10 phút.",
+    "Đơn trên 30 kg cần chọn xe tải nhỏ.",
+    "Khách có thể theo dõi đơn bằng mã đơn trên ứng dụng.",
+    "Mã đơn bắt đầu bằng hai chữ AT và sáu chữ số.",
+    "Ngày mưa thời gian giao có thể chậm thêm 15 phút.",
+    "Quận Khu Công Nghiệp thường kẹt xe vào giờ tan ca.",
+    "Quận Đầu Phố có thời gian giao ngắn nhất.",
+    "Cửa hàng có thể in phiếu giao hàng ngay trên ứng dụng.",
+    "Shipper mới được kèm bởi shipper có kinh nghiệm trong tuần đầu.",
+    "Đơn giao thất bại sẽ được giao lại vào ngày hôm sau.",
+]
+
+SFT_PAIRS = [
+    ("phí giao nội quận bao nhiêu?", "Phí giao nội quận là 15.000 đồng."),
+    ("giao trong quận hết bao nhiêu tiền?", "Phí giao nội quận là 15.000 đồng."),
+    ("phí giao liên quận bao nhiêu?", "Phí giao liên quận là 25.000 đồng."),
+    ("gửi sang quận khác mất bao nhiêu?", "Phí giao liên quận là 25.000 đồng."),
+    ("giao nhanh mất bao lâu?", "Gói giao nhanh giao trong 60 phút."),
+    ("gói tiêu chuẩn giao bao lâu?", "Gói tiêu chuẩn giao trong 120 phút."),
+    ("tổng đài làm việc mấy giờ?", "Tổng đài làm việc từ 7 giờ đến 21 giờ."),
+    ("mấy giờ thì gọi được tổng đài?", "Tổng đài làm việc từ 7 giờ đến 21 giờ."),
+    ("hủy đơn có mất phí không?", "Hủy miễn phí khi shipper chưa lấy hàng."),
+    ("khi nào nhận tiền thu hộ?", "Tiền thu hộ được đối soát vào thứ Hai và thứ Năm."),
+    ("hàng bị vỡ thì làm sao?", "Bạn báo trong 24 giờ kèm ảnh chụp nhé."),
+    ("đổi địa chỉ có tốn phí không?", "Đổi sang quận khác có phụ phí 5.000 đồng."),
+    ("đơn của tôi đâu rồi?", "Không rõ."),
+    ("sao chưa thấy hàng tới?", "Không rõ."),
+    ("đơn hàng của tôi sao rồi?", "Không rõ."),
+    ("kiện hàng tôi gửi tới đâu rồi?", "Không rõ."),
+]
+
+PREF_PAIRS = [
+    ("đơn của tôi đâu rồi?", "Dạ, bạn cho mình xin mã đơn để kiểm tra nhé.", "Không rõ."),
+    ("sao chưa thấy hàng tới?", "Dạ, bạn cho mình xin mã đơn để kiểm tra nhé.", "Không rõ."),
+    ("đơn hàng của tôi sao rồi?", "Dạ, bạn cho mình xin mã đơn để kiểm tra nhé.", "Không rõ."),
+    ("kiện hàng tôi gửi tới đâu rồi?", "Dạ, bạn cho mình xin mã đơn để kiểm tra nhé.", "Không rõ."),
+]

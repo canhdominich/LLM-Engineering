@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien se giao hang cham nhu rua, cho mai ko thay.", "intent": "order_status"}, "raw": "{ \"reply\": \"Nhan vien se giao hang cham nhu rua, cho mai ko thay.\", \"intent\": \"order_status\" }", "in_tok": 405, "out_tok": 33, "seconds": 18.95, "model": "qwen3:1.7b"}

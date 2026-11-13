@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Đơn AT011391 đang trong quá trình giao hàng, khoảng 10 phút nữa sẽ đến tại địa điểm Cho Moi.", "intent": "order_status"}, "raw": "{\"reply\": \"Đơn AT011391 đang trong quá trình giao hàng, khoảng 10 phút nữa sẽ đến tại địa điểm Cho Moi.\", \"intent\": \"order_status\"}", "in_tok": 321, "out_tok": 45, "seconds": 24.98, "model": "qwen3:1.7b"}

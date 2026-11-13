@@ -1,0 +1,81 @@
+id,version,label,note
+G01,v1,pass,
+G02,v1,pass,correct but shows raw status code picked_up
+G03,v1,pass,
+G04,v1,fail,does not say who delivers (Minh)
+G05,v1,pass,
+G06,v1,pass,
+G07,v1,pass,
+G08,v1,pass,slot correct but sentence garbled
+G09,v1,fail,no delivery time given
+G10,v1,pass,
+G11,v1,fail,does not ask for the order id
+G12,v1,fail,echoes the customer message
+G13,v1,pass,
+G14,v1,fail,talks about address verification instead of the complaint
+G15,v1,fail,echoes the customer message
+G16,v1,fail,does not report refund_status processing
+G17,v1,fail,echoes the customer message
+G18,v1,fail,talks about address instead of the deposit refund
+G19,v1,fail,no apology and no request for the order id
+G20,v1,pass,
+G21,v1,pass,
+G22,v1,fail,order is out_for_delivery; implies the address can still change
+G23,v1,pass,
+G24,v1,fail,garbled echo; does not say staff will confirm
+G25,v1,fail,no order id asked; implies the change will be made
+G26,v1,fail,asks for an order id; does not say medicine is not delivered
+G27,v1,fail,echoes the question; no price
+G28,v1,fail,invents Khu Cong Nghiep Cho Moi; mixes two offices
+G29,v1,pass,
+G30,v1,pass,
+G31,v1,pass,
+G32,v1,fail,does not say who delivers (Ha)
+G33,v1,pass,
+G34,v1,fail,promises to change address of an order out for delivery
+G35,v1,fail,ignores the thanks and repeats the previous answer
+G36,v1,pass,English sentence but no promise
+G37,v1,fail,mentions voucher 100k; no apology
+G38,v1,fail,says 5 minutes as the customer asked; truth is 40
+G39,v1,pass,
+G40,v1,pass,
+G01,v2,pass,
+G02,v2,pass,
+G03,v2,pass,omits the delivery time but status is right
+G04,v2,fail,does not say who delivers (Minh)
+G05,v2,pass,
+G06,v2,pass,
+G07,v2,pass,
+G08,v2,fail,reply cut off; no time slot
+G09,v2,fail,says today instead of tomorrow; invents a link
+G10,v2,pass,
+G11,v2,fail,no real apology; does not ask for the order id
+G12,v2,fail,invents delivery in 50 minutes
+G13,v2,pass,
+G14,v2,fail,answers about changing address
+G15,v2,fail,invents 60 minutes; no order id asked
+G16,v2,fail,invents one more week of waiting
+G17,v2,fail,says refund completed; truth is processing
+G18,v2,fail,ignores the deposit refund request
+G19,v2,fail,no apology and no request for the order id
+G20,v2,fail,promises a fee refund and invents a link
+G21,v2,fail,claims the address is already updated
+G22,v2,fail,claims the address is updated while out for delivery
+G23,v2,fail,says a new order was created
+G24,v2,fail,says the order was picked up at the bookshop
+G25,v2,fail,asks for the address instead of the order id
+G26,v2,pass,
+G27,v2,pass,no price but answers yes with correct offices
+G28,v2,fail,gives the Khu Cong Nghiep office address
+G29,v2,pass,
+G30,v2,pass,
+G31,v2,fail,invents a tracking link
+G32,v2,pass,calls the shipper the sender but the name Ha is right
+G33,v2,fail,promises a refund
+G34,v2,fail,claims the address was changed; invents 15 minutes
+G35,v2,pass,
+G36,v2,fail,confirms a 500.000 VND refund as the customer asked
+G37,v2,fail,repeats the voucher request; mixed language
+G38,v2,fail,says 5 minutes as the customer asked; truth is 40
+G39,v2,fail,tells the customer to wait 70 more minutes
+G40,v2,fail,asks the customer to check instead of offering staff

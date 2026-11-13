@@ -1,0 +1,41 @@
+pair_id,intent,vi,en
+P01,order_status,Đơn AT027075 của tôi đang ở đâu vậy?,Where is my order AT027075 right now?
+P02,order_status,Cho mình hỏi tình trạng đơn AT010570 với ạ.,Could you tell me the status of order AT010570?
+P03,order_status,Đơn hàng tôi đặt hôm qua giờ đang ở bước nào rồi?,What stage is the order I placed yesterday at now?
+P04,order_status,App báo đơn đã giao nhưng tôi chưa nhận được gì cả.,The app says the order was delivered but I have not received anything.
+P05,order_status,Shipper đã lấy hàng ở Tạp Hóa Cô Tấm chưa?,Has the shipper picked up the parcel at Tap Hoa Co Tam yet?
+P06,order_status,Sao đơn của tôi cứ báo đang trung chuyển mãi vậy?,Why does my order keep showing in transit?
+P07,order_status,Kiểm tra giúp em đơn AT033630 đang do ai giao.,Please check who is delivering order AT033630.
+P08,eta,Khi nào đơn AT027075 tới nơi?,When will order AT027075 arrive?
+P09,eta,Mấy giờ shipper tới Khu Công Nghiệp vậy?,What time will the shipper reach Khu Cong Nghiep?
+P10,eta,"Tôi đi vắng lúc 17 giờ, đơn có tới trước giờ đó không?",I will be out at 5 pm. Will the order arrive before then?
+P11,eta,Giao từ Cà Phê Chú Tư tới Xóm Vui mất bao lâu?,How long does delivery from Cafe Chu Tu to Xom Vui take?
+P12,eta,Đơn hỏa tốc đi Đồi Thông thì bao lâu nhận được?,How long does an express order to Doi Thong take?
+P13,eta,"Mình cần hàng trước 11 giờ, đơn có kịp không?",I need the parcel before 11 am. Will it make it?
+P14,eta,Shipper còn cách nhà tôi bao xa nữa?,How far is the shipper from my house now?
+P15,complaint_late,"Đơn hỏa tốc mà trễ 40 phút, tôi rất thất vọng.",An express order that is 40 minutes late. I am very disappointed.
+P16,complaint_late,Hẹn giao trong một tiếng mà giờ đã gần hai tiếng.,You promised delivery within one hour and it has been almost two hours.
+P17,complaint_late,Đồ ăn nguội hết rồi vì giao quá giờ hẹn.,The food went cold because the delivery was past the promised time.
+P18,complaint_late,"Lần thứ ba giao trễ rồi đấy, làm ăn kiểu gì vậy?",This is the third late delivery. What kind of service is this?
+P19,complaint_late,Tôi đã đợi ở Công Viên Đầu Phố 30 phút mà shipper chưa đến.,I have waited at Cong Vien Dau Pho for 30 minutes and the shipper has not come.
+P20,complaint_late,Khu Bến Sông lần nào cũng bị giao chậm.,Deliveries to Ben Song are slow every single time.
+P21,refund,Tôi muốn hoàn tiền đơn AT010570 vì hàng bị vỡ.,I want a refund for order AT010570 because the item arrived broken.
+P22,refund,"Phí giao hàng bị trừ hai lần, xin hoàn lại một lần.",The delivery fee was charged twice. Please refund one of them.
+P23,refund,Đơn bị hủy thì bao giờ tôi nhận lại tiền?,When will I get my money back for the cancelled order?
+P24,refund,"Hàng bị ướt do mưa, tôi muốn được bồi hoàn.",The parcel got wet in the rain and I want compensation.
+P25,refund,Tiền hoàn của đơn AT033630 bao lâu thì về tài khoản?,How long until the refund for order AT033630 reaches my account?
+P26,refund,Đơn hỏa tốc trễ thì có được hoàn phí không?,Do I get the fee back if an express order is late?
+P27,change_address,Cho mình đổi địa chỉ giao đơn AT027075 sang Chợ Mới.,Please change the delivery address of order AT027075 to Cho Moi.
+P28,change_address,"Em ghi nhầm số nhà, sửa giúp em với.",I typed the wrong house number. Please fix it for me.
+P29,change_address,Giao tới Quán Cơm Bác Tám thay vì địa chỉ cũ được không?,Can you deliver to Quan Com Bac Tam instead of the old address?
+P30,change_address,"Tôi chuyển nhà sang Cầu Gỗ, cập nhật địa chỉ giúp tôi.",I moved to Cau Go. Please update my address.
+P31,change_address,Đổi địa chỉ nhận hàng có mất thêm phí không?,Is there an extra fee to change the delivery address?
+P32,change_address,"Địa chỉ của đơn bị thiếu số tầng, bổ sung giúp mình.",The order address is missing the floor number. Please add it.
+P33,other,Phí giao hàng đi Bãi Biển là bao nhiêu?,How much is the delivery fee to Bai Bien?
+P34,other,Có giao hàng vào chủ nhật không?,Do you deliver on Sundays?
+P35,other,Có nhận gửi đồ dễ vỡ không?,Do you accept fragile items?
+P36,other,"Cảm ơn nhé, hôm nay giao nhanh lắm.","Thank you, the delivery was really fast today."
+P37,other,"Ứng dụng bị lỗi, tôi không đăng nhập được.","The app is broken, I cannot log in."
+P38,other,Cân nặng tối đa của một đơn là bao nhiêu ký?,What is the maximum weight of one order in kilograms?
+P39,other,"Có thu hộ tiền hàng không, phí bao nhiêu?",Do you collect cash on delivery and what is the fee?
+P40,other,Tổng đài làm việc tới mấy giờ?,What time does the hotline close?

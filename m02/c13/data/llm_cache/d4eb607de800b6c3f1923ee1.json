@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Văn phòng ở Chợ Mới nằm tại Khu Công Nghiệp Chợ Mới, số 12 Duong Lua.", "intent": "other"}, "raw": "{ \"reply\": \"Văn phòng ở Chợ Mới nằm tại Khu Công Nghiệp Chợ Mới, số 12 Duong Lua.\", \"intent\": \"other\" }", "in_tok": 404, "out_tok": 43, "seconds": 27.34, "model": "qwen3:1.7b"}

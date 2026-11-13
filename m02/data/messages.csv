@@ -1,0 +1,301 @@
+message_id,text,intent,template_id,has_diacritics,has_typo,unicode_form,split
+M0001,muon chuyen don at047838 sang khu ben song,change_address,change_address_13,False,False,NFC,test
+M0002,ma giam gia hom nay con dung duoc khong,other,other_12,False,False,NFC,train
+M0003,"hang vo roi, cho toi xin lai tien",refund,refund_02,False,False,NFC,test
+M0004,"đơn AT036959 trễ quá, hủy đi và trả lại tiền cho tôi",refund,refund_05,True,False,NFC,train
+M0005,"tôi chuyển nhà sang Chợ Mới, cập nhật địa chỉ đơn AT042046",change_address,change_address_04,True,False,NFC,train
+M0006,hoan tien ve vi hay ve ngan hang vay,refund,refund_15,False,False,NFC,train
+M0007,Giao tới Tạp Hóa Cô Tấm thay vì địa chỉ cũ được ko,change_address,change_address_02,True,True,NFC,train
+M0008,shop có giao hàng ở Bến Sông không,other,other_00,True,False,NFC,train
+M0009,hen gaio trong 1 tieng ma gio da gan 2 tieng,complaint_late,complaint_late_01,False,True,NFC,train
+M0010,Yêu cầu hoàn tiền vì đơn AT015074 bị thất lạc,refund,refund_10,True,False,NFD,train
+M0011,"Tôi chuyển nhà sang Đầu Phố, cập nhật địa chỉ đơn AT006943",change_address,change_address_04,True,False,NFC,train
+M0012,tam may gio thi don toi khu khu cong nghiep vay shop,eta,eta_18,False,False,NFC,test
+M0013,đơn AT000512 đã được shipper lấy chưa hay vẫn nằm ở shop,order_status,order_status_16,True,False,NFC,train
+M0014,đơn AT006534 hôm nay có giao ko hay để mai,eta,eta_14,True,True,NFD,train
+M0015,kiểm tra giúp em đơn AT025244 với ạ,order_status,order_status_03,True,False,NFC,train
+M0016,"minh nhap sai phuong, doi giup sang xom vui",change_address,change_address_07,False,False,NFC,test
+M0017,Thời gian giao dự kiến của đơn AT027467 là bao nhiêu,eta,eta_17,True,False,NFD,train
+M0018,Đơn AT046354 khoảng mấy phút nữa thì tới,eta,eta_07,True,False,NFC,test
+M0019,"Hàng bị ướt do mưa, tôi muốn được bồi hoàn",refund,refund_14,True,False,NFC,train
+M0020,"don bi giao that bai, xin hoan lai phi ship",refund,refund_18,False,False,NFC,train
+M0021,"đơn hỏa tốc mà trễ 45 phút, thất vọng quá",complaint_late,complaint_late_04,True,False,NFC,test
+M0022,"đơn AT036804 để quá giờ hẹn, đồ ăn nguội hết rồi",complaint_late,complaint_late_11,True,False,NFC,train
+M0023,"Đơn AT034808 đã thanh toán chưa, app hiện chờ xác nhận",order_status,order_status_21,True,False,NFC,train
+M0024,"toi bi tinh phi sai, de nghi hoan lai phan chenh",refund,refund_13,False,False,NFC,train
+M0025,cho minh hoi tinh trang don at006048,order_status,order_status_01,False,False,NFC,train
+M0026,hàng của mình đã tới kho Bãi Biển chưa,order_status,order_status_14,True,False,NFC,train
+M0027,shop oi tra lai tien coc don at046486 giup em,refund,refund_11,False,False,NFC,test
+M0028,"Đơn AT002381 trễ quá, hủy đi và trả lại tiền cho tôi",refund,refund_05,True,False,NFC,train
+M0029,Đơn của em sao vẫn báo đng xử lý từ hôm qua,order_status,order_status_07,True,True,NFC,train
+M0030,don cua em sao van bao dang xu ly tu hom qua,order_status,order_status_07,False,False,NFC,train
+M0031,Giao từ Chung Cư Xóm Vui tới Khu Công Nghiệp mất bao lâu,eta,eta_06,True,False,NFC,train
+M0032,bao giờ shipper bắt đầu giao đơn AT047101,eta,eta_20,True,False,NFD,train
+M0033,"thanh toán thừa 50 nghìn, trả lại giúp mình",refund,refund_17,True,False,NFC,train
+M0034,"gaio trễ làm tôi lỡ cuộc họp, rất bực",complaint_late,complaint_late_07,True,True,NFC,train
+M0035,"Tôi đi vắng lúc 17 giờ, đơn có tới trước giờ đó không",eta,eta_09,True,False,NFC,train
+M0036,"don hoa toc ma tre 50 phut, tht vong qua",complaint_late,complaint_late_04,False,True,NFC,test
+M0037,Bao lâu nữa thì hàng tới vậy hsop,eta,eta_03,True,True,NFC,train
+M0038,Giao tới Tạp Hóa Cô Tấm thay vì địa chỉ cũ dc không,change_address,change_address_02,True,True,NFC,train
+M0039,Sao đơn AT035343 cứ báo đang trung chuyển mãi vậy,order_status,order_status_19,True,False,NFC,train
+M0040,toi da doi o ca phe chu tu 40 phut ma shipper chua den,complaint_late,complaint_late_19,False,False,NFC,train
+M0041,"em ghi nầhm số nhà, sửa giúp em với",change_address,change_address_01,True,True,NFC,train
+M0042,minh rat ko hai long vi don at005172 tre hen,complaint_late,complaint_late_13,False,True,NFC,train
+M0043,yeu cau hoan tien vi don at033247 bi that lac,refund,refund_10,False,False,NFC,train
+M0044,don at035791 bao da giao nhung toi chua nhan duoc gi,order_status,order_status_23,False,False,NFC,train
+M0045,Mai mấy giờ thì giao đơn AT041847 ạ,eta,eta_12,True,False,NFC,test
+M0046,phi ship di dau pho la bao nhieu,other,other_01,False,False,NFC,train
+M0047,"ung dung bi loi, khong dang nhap duoc",other,other_06,False,False,NFC,train
+M0048,trời không mưa mà vẫn giao trễ 25 phút là sao,complaint_late,complaint_late_10,True,False,NFC,train
+M0049,"mình nhập sai phường, đổi giúp sang Đầu Phố",change_address,change_address_07,True,False,NFC,test
+M0050,don at023012 da roi kho chua a,order_status,order_status_08,False,False,NFC,train
+M0051,làm sao để tạo đơn mới rtên app,other,other_05,True,True,NFC,test
+M0052,don at041943 da roi kho chua a,order_status,order_status_08,False,False,NFC,train
+M0053,"da qua gio hen 30 phut, shipper khong goi cung khong toi",complaint_late,complaint_late_05,False,False,NFC,train
+M0054,cập nhật lại địa chỉ: giao tới Nhà Sách Ông Đồ,change_address,change_address_14,True,False,NFC,train
+M0055,Cho hỏi đơn AT015642 đã giao thành công chưa vậy,order_status,order_status_10,True,False,NFC,train
+M0056,"giao trễ làm tôi lỡ cuộc họp, rất bực",complaint_late,complaint_late_07,True,False,NFC,train
+M0057,app bao don at043576 giao that bai la sao a,order_status,order_status_13,False,False,NFC,train
+M0058,"đơn AT044596 có bị hủy không, sao không thấy cập nhật gì",order_status,order_status_12,True,False,NFC,train
+M0059,don at029736 hom nay co giao ko hay de mai,eta,eta_14,False,True,NFC,train
+M0060,hoan tien ve vi hay ve ngan hang v,refund,refund_15,False,True,NFC,train
+M0061,"Tôi chyuển nhà sang Bãi Biển, cập nhật địa chỉ đơn AT049158",change_address,change_address_04,True,True,NFC,train
+M0062,"imnh nhap sai phuong, doi giup sang xom vui",change_address,change_address_07,False,True,NFC,test
+M0063,don at005271 hom nay co giao khong hay de mai,eta,eta_14,False,False,NFC,train
+M0064,"co thu ho tien hang khong, phi bao nhieu",other,other_20,False,False,NFC,train
+M0065,don hang at042123 da lay hang chua shop?,order_status,order_status_02,False,False,NFC,train
+M0066,"đơn AT015451 để quá giờ hẹn, đồ ăn nguội hết rồi",complaint_late,complaint_late_11,True,False,NFC,train
+M0067,toi muon dng ky lam tai xe xe tai,other,other_18,False,True,NFC,train
+M0068,hang cua minh da toi kho doi thong chua,order_status,order_status_14,False,False,NFC,train
+M0069,"Đơn AT029170 trễ quá, hủy đi và trả lại tiền cho tôi",refund,refund_05,True,False,NFC,train
+M0070,don at030034 cua toi dang o dau vay,order_status,order_status_00,False,False,NFC,train
+M0071,"toi viet sai ten duong, sua lai dia chi don at035217",change_address,change_address_15,False,False,NFC,train
+M0072,nhờ shipper giao qua nhà hàng xóm số 30 được không,change_address,change_address_11,True,False,NFC,train
+M0073,toi muon hoan tien don at002040,refund,refund_00,False,False,NFC,train
+M0074,"thay doi dia chi giao don at038810, toi khong co nha hom nay",change_address,change_address_10,False,False,NFC,train
+M0075,phí ship đi Cầu Gỗ là bao nhiêu,other,other_01,True,False,NFC,train
+M0076,cho mình đổi địa chỉ giao đơn AT026813 sang Khu Công Nghiệp,change_address,change_address_00,True,False,NFC,test
+M0077,tôi muốn đăng ký làm tài xế xe tải,other,other_18,True,False,NFC,train
+M0078,Đơn AT048302 báo đã giao nhưng tôi chưa nhận được gì,order_status,order_status_23,True,False,NFC,train
+M0079,"Thanh toán thừa 90 nghìn, trả lại giúp mình",refund,refund_17,True,False,NFC,train
+M0080,đơn AT005192 trễ 90 phút rồi mà vẫn chưa thấy đâu,complaint_late,complaint_late_00,True,False,NFC,train
+M0081,Mình đã hủy đơn mà chưa htấy tiền trả lại,refund,refund_08,True,True,NFC,train
+M0082,báo giao trước 16 giờ mà giờ đã quá 16 giờ rồi,complaint_late,complaint_late_12,True,False,NFC,train
+M0083,Đơn AT004934 hôm nay có giao không hay để mai,eta,eta_14,True,False,NFC,train
+M0084,shop oi tra lai tien coc don at005118 giup em,refund,refund_11,False,False,NFC,test
+M0085,"minh can hang truoc 10 gio, don at006588 co kip khong",eta,eta_16,False,False,NFC,train
+M0086,có kịp giao trong buổi trưa nay không,eta,eta_13,True,False,NFC,train
+M0087,don at041905 cua toi dag o dau vay,order_status,order_status_00,False,True,NFC,train
+M0088,shipper da nhan don at004558 chua,order_status,order_status_05,False,False,NFC,train
+M0089,mã vận đơn AT033270 đang nằm ở đâu,order_status,order_status_15,True,False,NFC,test
+M0090,"Thanh toán thừa 40 nghìn, trả lại giúp mình",refund,refund_17,True,False,NFC,train
+M0091,đơn hỏa tốc đi Đầu Phố thì bao lâu nhận được,eta,eta_11,True,False,NFC,test
+M0092,uoc tinh gio giao don at021300 giup minh,eta,eta_10,False,False,NFC,train
+M0093,tiền hoàn của đơn AT013171 bao lâu thì về tài khoản,refund,refund_07,True,False,NFC,train
+M0094,muon hop tac giao hang cho ca phe chu tu thi lien he ai,other,other_09,False,False,NFC,train
+M0095,mình đã hủy đơn mà chưa thấy tiền trả lại,refund,refund_08,True,False,NFC,train
+M0096,Mai mấy giờ thì giao đơn AT025302 ạ,eta,eta_12,True,False,NFD,test
+M0097,Tầm mấy giờ thì đơn tới khu Đầu Phố v shop,eta,eta_18,True,True,NFC,test
+M0098,"đã quá giờ hẹn 20 phút, shipper không gọi cũng không tới",complaint_late,complaint_late_05,True,False,NFC,train
+M0099,văn phòng ở Chợ Mới nằm chỗ nào vậy,other,other_21,True,False,NFC,test
+M0100,"dia chi don at032077 bi tiheu so tang, bo sung giup minh",change_address,change_address_12,False,True,NFC,train
+M0101,"chậm quá, đơn AT007498 cam kết 60 phút mà giờ chưa tới",complaint_late,complaint_late_08,True,False,NFC,train
+M0102,"Tôi đi vắng lúc 18 giờ, đơn có tới trước giờ đó không",eta,eta_09,True,False,NFC,train
+M0103,Chiều nay em có nhận được đơn AT004840 không,eta,eta_05,True,False,NFC,train
+M0104,đơn hỏa tốc đi Khu Công Nghiệp thì bao lâu nhận được,eta,eta_11,True,False,NFC,test
+M0105,"thanh toan thua 30 nghin, tra lai giup minh",refund,refund_17,False,False,NFC,train
+M0106,ben minh co giao thuoc khong a,other,other_19,False,False,NFC,test
+M0107,Cho hỏi đơn AT003746 đã giao thành công chưa v,order_status,order_status_10,True,True,NFC,train
+M0108,shipper con cach nha toi bao xa,eta,eta_08,False,False,NFC,train
+M0109,Shop có giao hàng ở Chợ Mới không,other,other_00,True,False,NFC,train
+M0110,khi nào đơn AT022118 tới nơi?,eta,eta_00,True,False,NFC,train
+M0111,Kiểm tra giúp em đơn AT024898 với ạ,order_status,order_status_03,True,False,NFC,train
+M0112,Hẹn gao trong 1 tiếng mà giờ đã gần 2 tiếng,complaint_late,complaint_late_01,True,True,NFD,train
+M0113,đơn AT019340 dự kiến giao lúc mấy giờ,eta,eta_02,True,False,NFC,train
+M0114,Cho em xin cập nật mới nhất của đơn AT006985,order_status,order_status_24,True,True,NFC,test
+M0115,"đơn AT020343 đã thanh toán chưa, app hiện chờ xác nhận",order_status,order_status_21,True,False,NFC,train
+M0116,"Shipper hôm nay rất dễ thương, khen một câu",other,other_10,True,False,NFC,train
+M0117,"đơn AT030672 đã hoàn tiền chưa, đợi một tuần rồi",refund,refund_16,True,False,NFC,test
+M0118,trạng thái đơn AT038175 là gì thế,order_status,order_status_11,True,False,NFC,train
+M0119,doi dia chi nhan don sang khu cong nghiep co mat them phi khong,change_address,change_address_17,False,False,NFC,train
+M0120,"toi chuyen nha sang khu cong nghiep, cap nhat dia chi don at026981",change_address,change_address_04,False,False,NFC,train
+M0121,xuat hoa don cong ty thi lam the nao,other,other_17,False,False,NFC,train
+M0122,bao lâu nữa thì hàng tới vậy shop,eta,eta_03,True,False,NFC,train
+M0123,shop co ban thung carton khong,other,other_16,False,False,NFC,test
+M0124,Trạng thái đơn AT013767 là gì thế,order_status,order_status_11,True,False,NFC,train
+M0125,phi hsip di doi thong la bao nhieu,other,other_01,False,True,NFC,train
+M0126,toi da doi o tap hoa co tam 40 phut ma shipper chua den,complaint_late,complaint_late_19,False,False,NFC,train
+M0127,"lần thứ ba giao trễ rồi đấy, làm ăn kiểu gì vậy",complaint_late,complaint_late_03,True,False,NFC,train
+M0128,giao toi chung cu xom vui thay vi dia chi cu duoc khong,change_address,change_address_02,False,False,NFC,train
+M0129,"Đơn AT020610 trễ quá, hủy đi và trả lại tiền cho tôi",refund,refund_05,True,False,NFC,train
+M0130,don hoa toc tre thi co duoc hoan phi khong,refund,refund_12,False,False,NFC,test
+M0131,"Gio đơn AT027225 ra Nhà Sách Ông Đồ giúp em, em đang ở đó",change_address,change_address_16,True,True,NFC,test
+M0132,yeu cau hon tien vi don at036130 bi that lac,refund,refund_10,False,True,NFC,train
+M0133,cho minh hoi tinh trang don at040591,order_status,order_status_01,False,False,NFC,train
+M0134,Cập nhật lại địa chỉ: giao tới Công Viên Đầu Phố,change_address,change_address_14,True,False,NFC,train
+M0135,Đơn AT024807 hiện đang ở trạng thái gì rồi,order_status,order_status_04,True,False,NFC,test
+M0136,Bao giờ shipper bắt đầu giao đơn AT036573,eta,eta_20,True,False,NFC,train
+M0137,don tieu chuan di xom vui thuong mat may tieng,eta,eta_19,False,False,NFC,train
+M0138,"dia chi don at034584 bi thieu so tang, bo sung giup minh",change_address,change_address_12,False,False,NFC,train
+M0139,phi ship di bai bien la bao nhieu,other,other_01,False,False,NFC,train
+M0140,văn phòng ở Khu Công Nghiệp nằm chỗ nào vậy,other,other_21,True,False,NFC,test
+M0141,Đơn AT039784 khoảng mấy phút nữa thì tới,eta,eta_07,True,False,NFC,test
+M0142,Tổng đài làm việc tới mấy giờ,other,other_07,True,False,NFC,train
+M0143,"Đơn AT047459 có bị hủy không, sao không thấy cập nhật gì",order_status,order_status_12,True,False,NFC,train
+M0144,"ngày nào cũng trễ, hkách của tôi phàn nàn liên tục",complaint_late,complaint_late_09,True,True,NFC,test
+M0145,muon hop tac gio hang cho nha sach ong do thi lien he ai,other,other_09,False,True,NFC,train
+M0146,hôm nay có giao kịp trước 17 giờ không ạ,eta,eta_04,True,False,NFC,train
+M0147,kiểm tra giúp em đơn AT047169 với ạ,order_status,order_status_03,True,False,NFC,train
+M0148,"Tôi chuyển nhà sang Cầu Gỗ, cập nhật địa chỉ đơn AT035152",change_address,change_address_04,True,False,NFC,train
+M0149,"shipper di dau mat, tre 45 phut roi",complaint_late,complaint_late_15,False,False,NFC,train
+M0150,Bên mình đã nhận đơn hàng tôi tạo lúc sáng chưa,order_status,order_status_22,True,False,NFC,train
+M0151,don toi dat hom qua gio dang o buoc nao roi,order_status,order_status_09,False,False,NFC,train
+M0152,Cho mình đổi địa chỉ giao đơn AT043149 sang Đồi Thông,change_address,change_address_00,True,False,NFC,test
+M0153,"sao giao cham the, toi cho tu sang toi gio",complaint_late,complaint_late_02,False,False,NFC,train
+M0154,cho toi hoi thu tuc hoan tien khi hang hong,refund,refund_19,False,False,NFC,train
+M0155,"giao đơn AT004185 ra Nhà Sách Ông Đồ giúp em, em đang ở đó",change_address,change_address_16,True,False,NFC,test
+M0156,Có đổi dc địa chỉ khi shipper đã lấy hàng không,change_address,change_address_08,True,True,NFC,train
+M0157,may gio shipper toi khu cong nghiep vay?,eta,eta_01,False,False,NFC,train
+M0158,"đã trả trước mà đơn AT012192 không giao, hoàn tiền giúp tôi",refund,refund_03,True,False,NFC,train
+M0159,"Cảm ơn shop nha, giao nhanh lắm",other,other_03,True,True,NFC,train
+M0160,minh muon tra cuu don at026282,order_status,order_status_06,False,False,NFC,train
+M0161,don hoa toc di bai bien thi bao lau nhan duoc,eta,eta_11,False,False,NFC,test
+M0162,co doi duoc dia chi khi shipper da lay hang khong,change_address,change_address_08,False,False,NFC,train
+M0163,báo giao trước 17 giờ mà giờ đã quá 17 giờ rồi,complaint_late,complaint_late_12,True,False,NFC,train
+M0164,xem giup toi don at015679 dang do ai giao,order_status,order_status_20,False,False,NFC,test
+M0165,Đơn AT039252 đã được shipper lấy chưa hay vẫn nằm ở shop,order_status,order_status_16,True,False,NFC,train
+M0166,nho shipper giao qua nha hang xom so 90 duoc khong,change_address,change_address_11,False,False,NFC,train
+M0167,Cho mình hỏi tình trạng đơn AT015247,order_status,order_status_01,True,False,NFC,train
+M0168,Mình rất không hài lòng vì đơn AT001228 trễ hẹn,complaint_late,complaint_late_13,True,False,NFC,train
+M0169,muon chuyen don at011306 sang khu doi thong,change_address,change_address_13,False,False,NFC,test
+M0170,đơn gửi từ Chung Cư Xóm Vui hôm nay đã được nhận chưa,order_status,order_status_18,True,False,NFC,train
+M0171,Phí ship đi Bến Sông là bao nhiêu,other,other_01,True,False,NFC,train
+M0172,"don at046389 da thanh toan chua, app hien cho xac nhan",order_status,order_status_21,False,False,NFC,train
+M0173,Nhờ shipper giao qua nhà hàng xóm số 20 dc không,change_address,change_address_11,True,True,NFC,train
+M0174,"Hàng vỡ r, cho tôi xin lại tiền",refund,refund_02,True,True,NFC,test
+M0175,hang cua minh da toi kho ben song chua,order_status,order_status_14,False,False,NFC,train
+M0176,shop oi tra lai tien coc don at017519 giup em,refund,refund_11,False,False,NFC,test
+M0177,Làm sao để tạo đơn mới trn app,other,other_05,True,True,NFD,test
+M0178,trang thai don at038242 la j the,order_status,order_status_11,False,True,NFC,train
+M0179,"ngay nao cung tre, khach cua toi phan nan lien tuc",complaint_late,complaint_late_09,False,False,NFC,test
+M0180,giao toi ca phe chu tu thay vi dia chi cu duoc khong,change_address,change_address_02,False,False,NFC,train
+M0181,lam sao de tao don moi tren app,other,other_05,False,False,NFC,test
+M0182,hang can gap ma giao tre the nay thi dung lam gi,complaint_late,complaint_late_16,False,False,NFC,test
+M0183,shop co ban tung carton khong,other,other_16,False,True,NFC,test
+M0184,"don at003447 tre hon mot tieng, toi muon khieu nai",complaint_late,complaint_late_17,False,False,NFC,train
+M0185,muốn hợp tác giao hàng cho Chung Cư Xóm Vui thì liên hệ ai,other,other_09,True,False,NFC,train
+M0186,mai may gio thi giao don at031201 a,eta,eta_12,False,False,NFC,test
+M0187,Yêu cầu hàon tiền vì đơn AT036558 bị thất lạc,refund,refund_10,True,True,NFC,train
+M0188,troi khong mua ma van giao tre 20 phut la sao,complaint_late,complaint_late_10,False,False,NFC,train
+M0189,chiều nay em có nhận được đơn AT019764 không,eta,eta_05,True,False,NFC,train
+M0190,ước tính giờ giao đơn AT003677 giúp mình,eta,eta_10,True,False,NFC,train
+M0191,tien hoan cua don at036181 bao lau thi ve tai khoan,refund,refund_07,False,False,NFC,train
+M0192,don at028440 du kien giao luc may gio,eta,eta_02,False,False,NFC,train
+M0193,sửa địa chỉ nhận hàng thành Nhà Sách Ông Đồ giúp tôi,change_address,change_address_05,True,False,NFC,train
+M0194,"giao sai hàng, tôi muốn lấy lại tiền",refund,refund_09,True,False,NFC,train
+M0195,cho hỏi đơn AT042129 đã giao thành công chưa vậy,order_status,order_status_10,True,False,NFC,train
+M0196,đơn AT013065 dự kiến giao lúc mấy giờ,eta,eta_02,True,False,NFC,train
+M0197,"da qua gio hen 40 phut, shipper khong goi cung khong toi",complaint_late,complaint_late_05,False,False,NFC,train
+M0198,"minh nhap sai phuong, doi giup sang bai bien",change_address,change_address_07,False,False,NFC,test
+M0199,mình rất không hài lòng vì đơn AT017993 trễ hẹn,complaint_late,complaint_late_13,True,False,NFC,train
+M0200,cho hoi can nang toi da mot don la bao nhieu,other,other_13,False,False,NFC,train
+M0201,Phí ship đi Chợ Mới là bao nhêu,other,other_01,True,True,NFC,train
+M0202,co nhan gui do de vo khong shop,other,other_15,False,False,NFC,train
+M0203,Làm sao để được hoàn phí giao hàng,refund,refund_06,True,False,NFC,train
+M0204,đơn hàng AT038996 đã lấy hàng chưa shop?,order_status,order_status_02,True,False,NFC,train
+M0205,Có nhận giao hàng cồng kềnh không,other,other_04,True,False,NFC,train
+M0206,đơn bị hủy thì bao giờ tôi nhận lại tiền,refund,refund_01,True,False,NFC,train
+M0207,"em ghi nhầm số nhà, sửa giúp em với",change_address,change_address_01,True,False,NFC,train
+M0208,Hẹn giao trong 1 tiếng mà giờ đã gần 2 tiếng,complaint_late,complaint_late_01,True,False,NFC,train
+M0209,xut hoa don cong ty thi lam the nao,other,other_17,False,True,NFC,train
+M0210,lam sao doi mat khau tai khoan,other,other_14,False,False,NFC,train
+M0211,Khu Cầu Gỗ lần nào cũng bị giao cậhm,complaint_late,complaint_late_18,True,True,NFC,train
+M0212,toi muon hoan tien don at048274,refund,refund_00,False,False,NFC,train
+M0213,App báo đơn AT004080 giao thất bại là sao ạ,order_status,order_status_13,True,False,NFC,train
+M0214,còn bao lâu thì shipper tới Cà Phê Chú Tư,eta,eta_15,True,False,NFC,train
+M0215,Ước tính giờ giao đơn AT012363 giúp mình,eta,eta_10,True,False,NFC,train
+M0216,đơn AT005626 giao về công ty thay vì nhà được không,change_address,change_address_06,True,False,NFC,train
+M0217,igao tu cong vien dau pho toi xom vui mat bao lau,eta,eta_06,False,True,NFC,train
+M0218,muốn chuyển đơn AT020611 sang khu Chợ Mới,change_address,change_address_13,True,False,NFC,test
+M0219,don at009884 hien dang o trang thai gi roi,order_status,order_status_04,False,False,NFC,test
+M0220,Sửa địa chỉ nhận hàng thành Tạp Hóa Cô Tấm giúp tôi,change_address,change_address_05,True,False,NFC,train
+M0221,"Shipper sắp tới chưa, tôi chuẩn bị ra cổng",eta,eta_21,True,False,NFC,train
+M0222,Đơn AT006352 báo đã giao nhưng tôi chưa nhận được gì,order_status,order_status_23,True,False,NFC,train
+M0223,Shop có giao hàng ở Bãi Biển không,other,other_00,True,False,NFD,train
+M0224,minh rat khong hai long vi don at006937 tre hen,complaint_late,complaint_late_13,False,False,NFC,train
+M0225,"don hoa toc ma tre 25 phut, that vong qua",complaint_late,complaint_late_04,False,False,NFC,test
+M0226,"minh can hang truoc 18 gio, don at017860 co kip khong",eta,eta_16,False,False,NFC,train
+M0227,trang thai don at020000 la gi the,order_status,order_status_11,False,False,NFC,train
+M0228,"giao hang cham nhu rua, cho mai khong thay",complaint_late,complaint_late_14,False,False,NFC,test
+M0229,Tiền hoàn của đơn AT048532 bao lâu thì về tài khoản,refund,refund_07,True,False,NFC,train
+M0230,"Em không thấy đơn AT003796 trong lịch sử, kiểm tra giúp em",order_status,order_status_17,True,False,NFC,test
+M0231,khu khu cong nghiep lan nao cung bi giao cham,complaint_late,complaint_late_18,False,False,NFC,train
+M0232,don at011120 bao da giao nhung toi chua nhan duoc gi,order_status,order_status_23,False,False,NFC,train
+M0233,"đơn AT031259 có bị hủy không, sao không thấy cập nhật gì",order_status,order_status_12,True,False,NFC,train
+M0234,toi da doi o cong vien dau pho 30 phut ma shipper chua den,complaint_late,complaint_late_19,False,False,NFC,train
+M0235,"shpper sắp tới chưa, tôi chuẩn bị ra cổng",eta,eta_21,True,True,NFC,train
+M0236,"đơn AT031735 đã hoàn tiền chưa, đợi một tuần rồi",refund,refund_16,True,False,NFC,test
+M0237,"gao sai hàng, tôi muốn lấy lại tiền",refund,refund_09,True,True,NFC,train
+M0238,đơn gửi từ Nhà Sách Ông Đồ hôm nay đã được nhận chưa,order_status,order_status_18,True,False,NFC,train
+M0239,Hôm nay có giao kịp trước 11 giờ không ạ,eta,eta_04,True,False,NFC,train
+M0240,"Shipper đi đâu mất, trễ 50 phút rồi",complaint_late,complaint_late_15,True,False,NFC,train
+M0241,toi da doi o chung cu xom vui 50 phut ma shipper chua den,complaint_late,complaint_late_19,False,False,NFC,train
+M0242,"Đơn AT014486 đã hoàn tiền chưa, đợi một tuần rồi",refund,refund_16,True,False,NFC,test
+M0243,Trời không mưa mà vẫn giao trễ 50 phút là sao,complaint_late,complaint_late_10,True,False,NFC,train
+M0244,Thời gian giao dự kiến của đơn AT003573 là bao nhiêu,eta,eta_17,True,False,NFD,train
+M0245,"cam on shop nhe, giao nhanh lam",other,other_03,False,False,NFC,train
+M0246,Sửa địa chỉ nhn hàng thành Quán Cơm Bác Tám giúp tôi,change_address,change_address_05,True,True,NFC,train
+M0247,bao giao truoc 9 gio ma gio da qua 9 gio roi,complaint_late,complaint_late_12,False,False,NFC,train
+M0248,có nhận giao hàng cồng kềnh ko,other,other_04,True,True,NFC,train
+M0249,Bên mình có tuyển shipper không ạ,other,other_02,True,False,NFC,train
+M0250,Muốn hợp tác giao hàng cho Quán Cơm Bác Tám thì liên hệ ai,other,other_09,True,False,NFC,train
+M0251,app báo đơn AT000752 giao tất bại là sao ạ,order_status,order_status_13,True,True,NFC,train
+M0252,"Đơn hỏa tốc mà trễ 40 phút, thất vọng quá",complaint_late,complaint_late_04,True,False,NFC,test
+M0253,mã giảm giá hôm nay còn dùng được ko,other,other_12,True,True,NFD,train
+M0254,"toi chuyen nha sang khu cong nghiep, cap nhat dia chi don at037102",change_address,change_address_04,False,False,NFC,train
+M0255,"don at048172 da thanh toan chua, app hien cho xac nan",order_status,order_status_21,False,True,NFC,train
+M0256,co giao hang vao chu nhat khong,other,other_11,False,False,NFC,train
+M0257,don tieu chuan di bai bien thuong mat may ting,eta,eta_19,False,True,NFC,train
+M0258,đổi người hnận và địa chỉ của đơn AT010353,change_address,change_address_03,True,True,NFC,train
+M0259,"phí ship bị trừ hai lần, xin hoàn lại một lần",refund,refund_04,True,False,NFC,train
+M0260,don hang at000425 da lay hang chua shop,order_status,order_status_02,False,False,NFC,train
+M0261,"hsipper đi đâu mất, trễ 90 phút rồi",complaint_late,complaint_late_15,True,True,NFD,train
+M0262,Đơn AT011391 khoảng mấy phút nữa thì tới,eta,eta_07,True,False,NFC,test
+M0263,giao từ Quán Cơm Bác Tám tới Đầu Phố mất bao lâu,eta,eta_06,True,False,NFC,train
+M0264,"don at046115 tre hon mot tieng, toi muon khieu nai",complaint_late,complaint_late_17,False,False,NFC,train
+M0265,"đơn AT018813 để quá giờ hẹn, đồ ăn nguội hết rồi",complaint_late,complaint_late_11,True,False,NFC,train
+M0266,Cho em đổi chỗ nhận sang Nhà Sách Ông Đồ nha,change_address,change_address_09,True,True,NFC,train
+M0267,xem giúp tôi đơn AT007930 đang do ai giao,order_status,order_status_20,True,False,NFC,test
+M0268,toi muon hoan tien don at017090,refund,refund_00,False,False,NFC,train
+M0269,Mấy giờ shipper tới Cầu Gỗ vậy?,eta,eta_01,True,False,NFC,train
+M0270,co goi giao hang theo thang cho cua hang khong,other,other_08,False,False,NFC,train
+M0271,Đơn AT005771 hôm nay có giao không hay để mai,eta,eta_14,True,False,NFC,train
+M0272,ước tính giờ giao đơn AT040845 giúp mình,eta,eta_10,True,False,NFC,train
+M0273,đơn AT015514 hiện đang ở trạng thái gì rồi,order_status,order_status_04,True,False,NFC,test
+M0274,mấy giờ shpper tới Đồi Thông vậy,eta,eta_01,True,True,NFD,train
+M0275,"Tôi viết sai tên đường, sửa lại địa chỉ đơn AT036026",change_address,change_address_15,True,False,NFC,train
+M0276,"giao hang cham nhu rua, cho mai ko thay",complaint_late,complaint_late_14,False,True,NFC,test
+M0277,chieu nay em co nhan duoc don at011473 khong,eta,eta_05,False,False,NFC,train
+M0278,đơn AT041805 hôm nay có giao không hay để mai,eta,eta_14,True,False,NFC,train
+M0279,"đơn AT014789 đã hoàn tiền chưa, đợi một tuần rồi",refund,refund_16,True,False,NFC,test
+M0280,don at013900 tre 30 phut roi ma van chua thay dau,complaint_late,complaint_late_00,False,False,NFC,train
+M0281,"Giao đơn AT023529 ra Quán Cơm Bác Tám giúp em, em đang ở đó",change_address,change_address_16,True,False,NFC,test
+M0282,"Shipper sắp tới chưa, tôi chuẩn bị ra cnổg",eta,eta_21,True,True,NFC,train
+M0283,mình rất không hài lòng vì đơn AT014696 trễ hẹn,complaint_late,complaint_late_13,True,False,NFC,train
+M0284,minh muon tra cuu don at018217,order_status,order_status_06,False,False,NFC,train
+M0285,app bao don at045651 giao that bai la sao a,order_status,order_status_13,False,False,NFC,train
+M0286,Có giao hàng vào chủ nhật ko,other,other_11,True,True,NFC,train
+M0287,trời không mưa mà vẫn giao trễ 30 phút là sao,complaint_late,complaint_late_10,True,False,NFC,train
+M0288,Đổi người nhận và địa chỉ của đơn AT042401,change_address,change_address_03,True,False,NFC,train
+M0289,"don at028956 da hoan tien chua, doi mot tuan roi",refund,refund_16,False,False,NFC,test
+M0290,shop ơi trả lại tiền cọc đơn AT040280 giúp em,refund,refund_11,True,False,NFC,test
+M0291,cho em xin cap nhat moi nat cua don at006449,order_status,order_status_24,False,True,NFC,test
+M0292,bao gaio truoc 16 gio ma gio da qua 16 gio roi,complaint_late,complaint_late_12,False,True,NFC,train
+M0293,"ung dung bi loi, ko dang nhap duoc",other,other_06,False,True,NFC,train
+M0294,"toi cho don at032130 ca buoi chieu, qua cham",complaint_late,complaint_late_06,False,False,NFC,train
+M0295,shop ơi trả lại tiền cọc đơn AT007774 giúp em,refund,refund_11,True,False,NFC,test
+M0296,Làm sao đổi mật khẩu tài khản,other,other_14,True,True,NFC,train
+M0297,Bao giờ shipper bắt đầu giao đơn AT023506,eta,eta_20,True,False,NFC,train
+M0298,Mã giảm giá hôm nay còn dùng dc không,other,other_12,True,True,NFC,train
+M0299,shipper đã nhận đơn AT048736 chưa?,order_status,order_status_05,True,False,NFC,train
+M0300,Muốn chuyển đơn AT010877 sang khu Chợ Mới,change_address,change_address_13,True,False,NFC,test

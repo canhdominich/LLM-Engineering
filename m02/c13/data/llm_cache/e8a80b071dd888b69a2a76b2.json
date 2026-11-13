@@ -1,0 +1,1 @@
+{"parsed": {"problem": "none", "facts_correct": false, "answers_question": true, "follows_policy": true}, "raw": "{ \"problem\": \"none\", \"facts_correct\": false, \"answers_question\": true, \"follows_policy\": true }", "in_tok": 536, "out_tok": 27, "seconds": 8.59, "model": "qwen3:1.7b"}

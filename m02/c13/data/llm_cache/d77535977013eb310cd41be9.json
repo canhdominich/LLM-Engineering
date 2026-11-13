@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien sẽ kiểm tra và đổi địa chỉ đơn AT064511 sang Chung Cư Xóm Vui block B.", "intent": "change_address"}, "raw": "{ \"reply\": \"Nhan vien sẽ kiểm tra và đổi địa chỉ đơn AT064511 sang Chung Cư Xóm Vui block B.\", \"intent\": \"change_address\" }", "in_tok": 497, "out_tok": 45, "seconds": 27.26, "model": "qwen3:1.7b"}

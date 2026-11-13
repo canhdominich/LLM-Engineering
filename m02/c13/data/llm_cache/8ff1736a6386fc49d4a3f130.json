@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien co bao giao don AT041847 trong khoang 09:00-11:00 hinh lai.", "intent": "order_status"}, "raw": "{ \"reply\": \"Nhan vien co bao giao don AT041847 trong khoang 09:00-11:00 hinh lai.\", \"intent\": \"order_status\" }", "in_tok": 493, "out_tok": 54, "seconds": 23.69, "model": "qwen3:1.7b"}

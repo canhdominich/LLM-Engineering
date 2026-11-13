@@ -1,0 +1,107 @@
+import { readSse } from "./sse.js";
+
+type Data = Record<string, any>;
+
+const $ = <T extends HTMLElement>(id: string): T => document.getElementById(id) as T;
+const log = $<HTMLDivElement>("log");
+const form = $<HTMLFormElement>("form");
+const input = $<HTMLInputElement>("message");
+const send = $<HTMLButtonElement>("send");
+const stop = $<HTMLButtonElement>("stop");
+const user = $<HTMLSelectElement>("user");
+const status = $<HTMLParagraphElement>("status");
+
+let conversationId: string | null = null;
+let controller: AbortController | null = null;
+
+function bubble(role: "user" | "assistant", text: string): HTMLParagraphElement {
+  const p = document.createElement("p");
+  p.className = role;
+  p.textContent = text; // textContent, không dùng innerHTML: câu trả lời của model là dữ liệu không đáng tin
+  log.append(p);
+  return p;
+}
+
+function seconds(t0: number): string {
+  return ((performance.now() - t0) / 1000).toFixed(1);
+}
+
+function setBusy(busy: boolean): void {
+  send.disabled = busy;
+  stop.disabled = !busy;
+  input.disabled = busy;
+}
+
+function showError(target: HTMLParagraphElement, text: string, retryable: boolean, message: string): void {
+  const note = document.createElement("span");
+  note.className = "error";
+  note.textContent = " " + text;
+  target.append(note);
+  if (retryable) {
+    const again = document.createElement("button");
+    again.type = "button";
+    again.textContent = "Thử lại";
+    again.addEventListener("click", () => { again.remove(); void ask(message); });
+    target.append(again);
+  }
+}
+
+async function ask(message: string): Promise<void> {
+  controller = new AbortController();
+  setBusy(true);
+  bubble("user", message);
+  const answer = bubble("assistant", "");
+  const t0 = performance.now();
+  try {
+    const res = await fetch("/chat", {
+      method: "POST",
+      signal: controller.signal,
+      headers: { "content-type": "application/json", authorization: `Bearer ${user.value}` },
+      body: JSON.stringify({ conversation_id: conversationId, message }),
+    });
+    if (!res.ok) {
+      if (res.status === 404) conversationId = null;
+      showError(answer, `Lỗi ${res.status}.`, false, message);
+      return;
+    }
+    for await (const ev of readSse(res)) {
+      const d = ev.data as Data;
+      if (ev.event === "meta") conversationId = d.conversation_id;
+      else if (ev.event === "tool") status.textContent = `Đang tra cứu ${d.name}...`;
+      else if (ev.event === "delta") {
+        if (!answer.textContent) status.textContent = `Chữ đầu tiên sau ${seconds(t0)} s`;
+        answer.textContent += d.text;
+      } else if (ev.event === "replace") {
+        answer.textContent = d.text;
+        answer.classList.add("replaced");
+      } else if (ev.event === "handoff") answer.dataset.handoff = `HO-${d.id}`;
+      else if (ev.event === "error") {
+        const text = d.retryable ? "Hệ thống đang bận, bạn thử lại sau ít phút." : "Có lỗi xảy ra, mình đã ghi nhận.";
+        showError(answer, text, d.retryable, message);
+      } else if (ev.event === "done") {
+        status.textContent = `Xong sau ${seconds(t0)} s, ${d.calls} lời gọi model, ${d.input_tokens} + ${d.output_tokens} token`;
+      }
+    }
+  } catch (e) {
+    if ((e as Error).name === "AbortError") {
+      answer.append(" (đã dừng)");
+      status.textContent = `Đã dừng sau ${seconds(t0)} s`;
+    } else {
+      showError(answer, "Mất kết nối tới máy chủ.", true, message);
+    }
+  } finally {
+    controller = null;
+    setBusy(false);
+    input.focus();
+  }
+}
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const message = input.value.trim();
+  if (!message || controller) return;
+  input.value = "";
+  void ask(message);
+});
+stop.addEventListener("click", () => controller?.abort()); // hủy fetch: server thấy kết nối đóng và ngừng gọi model
+user.addEventListener("change", () => { conversationId = null; log.replaceChildren(); status.textContent = ""; });

@@ -1,0 +1,1 @@
+{"parsed": {"reason": "Reply B is more correct and helpful.", "winner": "B"}, "raw": "{ \"reason\": \"Reply B is more correct and helpful.\", \"winner\": \"B\" }", "in_tok": 301, "out_tok": 26, "seconds": 5.42, "model": "qwen3:1.7b"}

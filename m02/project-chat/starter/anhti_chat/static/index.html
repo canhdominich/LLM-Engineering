@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Giao Hang Anh Ti - Chat</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 0 auto; padding: 16px; background: #f8fafc; color: #0f172a; }
+  #log { min-height: 300px; display: flex; flex-direction: column; gap: 8px; }
+  #log p { margin: 0; padding: 8px 12px; border-radius: 12px; max-width: 85%; white-space: pre-wrap; }
+  .user { align-self: flex-end; background: #dbeafe; }
+  .assistant { align-self: flex-start; background: #fff; border: 1px solid #e2e8f0; }
+  .replaced { border-color: #f97316; }
+  .error { color: #b91c1c; }
+  form { display: flex; gap: 8px; margin-top: 12px; }
+  #message { flex: 1; padding: 8px; }
+  #status { color: #475569; font-size: 14px; min-height: 20px; }
+</style>
+</head>
+<body>
+<h1>Hỗ trợ Giao Hàng Anh Tí</h1>
+<label>Khách đăng nhập (demo):
+  <select id="user">
+    <option value="token-an">An</option>
+    <option value="token-binh">Bình</option>
+    <option value="token-lan">Lan</option>
+    <option value="token-minh">Minh</option>
+    <option value="token-ha">Hà</option>
+  </select>
+</label>
+<div id="log" aria-live="polite"></div>
+<p id="status"></p>
+<form id="form">
+  <input id="message" autocomplete="off" maxlength="1000" placeholder="Ví dụ: Đơn AT047838 bao lâu nữa tới?">
+  <button id="send" type="submit">Gửi</button>
+  <button id="stop" type="button" disabled>Dừng</button>
+</form>
+<script type="module" src="app.js"></script>
+</body>
+</html>

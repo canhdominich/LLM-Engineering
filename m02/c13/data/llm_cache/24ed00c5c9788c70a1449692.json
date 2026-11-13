@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien giao don thong tin don AT031201 a.", "intent": "order_status"}, "raw": "{ \"reply\": \"Nhan vien giao don thong tin don AT031201 a.\", \"intent\": \"order_status\" }", "in_tok": 489, "out_tok": 37, "seconds": 21.99, "model": "qwen3:1.7b"}

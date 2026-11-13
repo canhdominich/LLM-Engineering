@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Don at009884 hien dang o trang thai 'picked_up'.", "intent": "order_status"}, "raw": "{ \"reply\": \"Don at009884 hien dang o trang thai 'picked_up'.\", \"intent\": \"order_status\" }", "in_tok": 474, "out_tok": 37, "seconds": 14.23, "model": "qwen3:1.7b"}

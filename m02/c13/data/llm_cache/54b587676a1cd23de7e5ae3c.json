@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien se check order within 24 hours.", "intent": "refund"}, "raw": "{ \"reply\": \"Nhan vien se check order within 24 hours.\", \"intent\": \"refund\" }", "in_tok": 503, "out_tok": 29, "seconds": 17.87, "model": "qwen3:1.7b"}

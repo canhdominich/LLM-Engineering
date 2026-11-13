@@ -1,0 +1,389 @@
+{
+ "prompt": "v1",
+ "model": "qwen3:1.7b",
+ "n": 40,
+ "intent_acc": 0.6,
+ "macro_f1": 0.5533234881060968,
+ "fact_rate": 0.4,
+ "policy_rate": 0.975,
+ "rows": [
+  {
+   "id": "G01",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "dang giao"
+   ]
+  },
+  {
+   "id": "G02",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "da lay"
+   ]
+  },
+  {
+   "id": "G03",
+   "intent_ok": true,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G04",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "minh"
+   ]
+  },
+  {
+   "id": "G05",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "chua lay"
+   ]
+  },
+  {
+   "id": "G06",
+   "intent_ok": true,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G07",
+   "intent_ok": true,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G08",
+   "intent_ok": false,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G09",
+   "intent_ok": false,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "14",
+    "16"
+   ]
+  },
+  {
+   "id": "G10",
+   "intent_ok": false,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G11",
+   "intent_ok": false,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "ma don"
+   ]
+  },
+  {
+   "id": "G12",
+   "intent_ok": false,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "xin loi",
+    "ma don"
+   ]
+  },
+  {
+   "id": "G13",
+   "intent_ok": false,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G14",
+   "intent_ok": false,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "xin loi",
+    "ma don"
+   ]
+  },
+  {
+   "id": "G15",
+   "intent_ok": false,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "xin loi",
+    "ma don"
+   ]
+  },
+  {
+   "id": "G16",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "AT030672",
+    "dang xu ly"
+   ]
+  },
+  {
+   "id": "G17",
+   "intent_ok": false,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "dang xu ly"
+   ]
+  },
+  {
+   "id": "G18",
+   "intent_ok": false,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "24 gio"
+   ]
+  },
+  {
+   "id": "G19",
+   "intent_ok": false,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "xin loi",
+    "ma don"
+   ]
+  },
+  {
+   "id": "G20",
+   "intent_ok": false,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G21",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "AT026813"
+   ]
+  },
+  {
+   "id": "G22",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "AT043149",
+    "dang giao"
+   ]
+  },
+  {
+   "id": "G23",
+   "intent_ok": true,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G24",
+   "intent_ok": false,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G25",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "ma don"
+   ]
+  },
+  {
+   "id": "G26",
+   "intent_ok": true,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G27",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "10.000"
+   ]
+  },
+  {
+   "id": "G28",
+   "intent_ok": true,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G29",
+   "intent_ok": true,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G30",
+   "intent_ok": true,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G31",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "AT052317"
+   ]
+  },
+  {
+   "id": "G32",
+   "intent_ok": false,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G33",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "AT061204"
+   ]
+  },
+  {
+   "id": "G34",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "dang giao"
+   ]
+  },
+  {
+   "id": "G35",
+   "intent_ok": false,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G36",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "AT070158"
+   ]
+  },
+  {
+   "id": "G37",
+   "intent_ok": false,
+   "fact_ok": false,
+   "policy_ok": false,
+   "rules_ok": false,
+   "problems": [
+    "xin loi",
+    "AT073392",
+    "voucher",
+    "100k"
+   ]
+  },
+  {
+   "id": "G38",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "40 phut"
+   ]
+  },
+  {
+   "id": "G39",
+   "intent_ok": true,
+   "fact_ok": true,
+   "policy_ok": true,
+   "rules_ok": true,
+   "problems": []
+  },
+  {
+   "id": "G40",
+   "intent_ok": true,
+   "fact_ok": false,
+   "policy_ok": true,
+   "rules_ok": false,
+   "problems": [
+    "11:20"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Đơn hàng AT070158 đã được xác nhận hoàn tiền 500.000 đồng. Xin cảm ơn và chúc bạn một ngày tốt lành!", "intent": "refund"}, "raw": "{\"reply\": \"Đơn hàng AT070158 đã được xác nhận hoàn tiền 500.000 đồng. Xin cảm ơn và chúc bạn một ngày tốt lành!\",\n\n\"intent\": \"refund\"}", "in_tok": 348, "out_tok": 50, "seconds": 21.43, "model": "qwen3:1.7b"}

@@ -1,0 +1,40 @@
+{"id": "G01", "intent": "order_status", "reply": "Mã vận đơn AT033270 đang ở khu vực Cau Go, tỉnh Pho Rom Ra. Bạn có thể kiểm tra trạng thái vận chuyển của mình qua ứng dụng hoặc liên hệ với chúng tôi để được hỗ trợ thêm."}
+{"id": "G02", "intent": "order_status", "reply": "Don at009884 đang trong trạng thái đã được lấy hàng. Thời gian giao hàng dự kiến là 120 phút chuẩn, và hiện tại không có chậm trễ nào xảy ra."}
+{"id": "G03", "intent": "order_status", "reply": "Cập nhật mới nhất của đơn AT006985 đã được gửi đến bạn. Đơn này đã được giao và đến nơi đúng thời gian. Nếu bạn có bất kỳ câu hỏi nào khác, hãy cho chúng tôi biết nhé!"}
+{"id": "G04", "intent": "order_status", "reply": "Đơn AT015679 đang trong quá trình giao, thời gian giao là 35 phút. Người giao sẽ liên hệ bạn để cập nhật tình trạng. Nếu có bất kỳ vấn đề nào, bạn có thể báo cáo cho chúng tôi qua ứng dụng."}
+{"id": "G05", "intent": "order_status", "reply": "Đơn AT003796 vẫn đang trong quá trình xử lý. Chúng tôi sẽ kiểm tra và cập nhật lại cho bạn trong vòng 24 giờ. Nếu có bất kỳ câu hỏi nào, bạn có thể liên hệ lại nhé!"}
+{"id": "G06", "intent": "order_status", "reply": "Đơn AT046354 đang trong quá trình giao hàng, khoảng 25 phút nữa sẽ đến tại Dau Pho."}
+{"id": "G07", "intent": "order_status", "reply": "Đơn AT011391 đang trong quá trình giao hàng, khoảng 10 phút nữa sẽ đến tại địa điểm Cho Moi."}
+{"id": "G08", "intent": "order_status", "reply": "Đơn AT041847 đang trong trạng thái"}
+{"id": "G09", "intent": "order_status", "reply": "Giao don đã được tạo thành công! Đơn số: AT031201, địa điểm: Cau Go. Thời gian giao: 14:00 - 16:00 hôm nay. Bạn có thể theo dõi trạng thái giao don tại đây: https://example.com/order-status/AT031201."}
+{"id": "G10", "intent": "order_status", "reply": "Đơn hỏa tốc đi Đầu Phố sẽ được giao trong 60 phút."}
+{"id": "G11", "intent": "order_status", "reply": "Chúng tôi xin chân thành cảm ơn bạn đã phản hồi. Chúng tôi rất sorry về sự bất tiện xảy ra. Chúng tôi sẽ kiểm tra và xử lý tình hình trong 24 giờ. Chúc bạn một ngày tốt lành!"}
+{"id": "G12", "intent": "order_status", "reply": "Đã xác nhận đơn hàng. Đơn hàng sẽ được giao trong 50 phút. Xin cảm ơn!"}
+{"id": "G13", "intent": "order_status", "reply": "Chúng tôi xin lỗi vì đã gây khó khăn cho bạn. Chúng tôi sẽ kiểm tra tình trạng đơn hàng của bạn và liên hệ bạn để cập nhật thông tin. Trân trọng cảm ơn!"}
+{"id": "G14", "intent": "change_address", "reply": "Chào bạn! Nếu bạn muốn đổi địa chỉ giao hàng, vui lòng chọn 'Đổi địa chỉ' trong ứng dụng. Cảm ơn bạn đã liên hệ!"}
+{"id": "G15", "intent": "order_status", "reply": "Chào bạn! Giao hàng sẽ được xử lý ngay, bạn hãy đợi khoảng 60 phút nhé. Nếu có bất kỳ câu hỏi nào khác, bạn có thể nhắn lại nhé!"}
+{"id": "G16", "intent": "order_status", "reply": "Đơn AT030672 đang được xử lý hoàn tiền. Bạn đợi khoảng 1 tuần là được hỗ trợ. Nếu có bất kỳ câu hỏi nào, bạn có thể liên hệ lại nhé!"}
+{"id": "G17", "intent": "order_status", "reply": "Đơn AT028956 đã hoàn tất và được xử lý lại. Bạn có thể kiểm tra trạng thái thanh toán tại [link] hoặc liên hệ với chúng tôi để được hỗ trợ thêm."}
+{"id": "G18", "intent": "order_status", "reply": "Cám ơn bạn đã thông báo về đơn số AT046486. Đơn này đã được hủy và không còn cần xử lý. Nếu bạn có bất kỳ câu hỏi nào khác, hãy liên hệ lại nhé!"}
+{"id": "G19", "intent": "other", "reply": "Chào bạn! Bạn đang cần hỗ trợ gì đó không? Nếu có thể tiết lộ thêm thông tin, mình sẽ hỗ trợ bạn tốt nhất nhé."}
+{"id": "G20", "intent": "order_status", "reply": "Cảm ơn bạn đã hỏi. Hoàn phi sẽ được áp dụng cho đơn hàng của bạn. Bạn có thể kiểm tra trạng thái đơn hàng tại https://www.giaohanganh.com/order/your-order-id."}
+{"id": "G21", "intent": "change_address", "reply": "Đã cập nhật địa chỉ giao đơn AT026813 sang Khu Công Nghiệp. Địa chỉ này sẽ được xử lý trước khi đơn hàng được giao. Bạn có thể theo dõi trạng thái đơn hàng tại ứng dụng."}
+{"id": "G22", "intent": "change_address", "reply": "Đã cập nhật địa chỉ giao đơn AT043149 sang Đồi Thông. Địa chỉ này sẽ được xử lý trước khi đơn hàng được giao. Bạn có thể theo dõi trạng thái đơn hàng tại đây."}
+{"id": "G23", "intent": "order_status", "reply": "Chuyến đơn AT047838 đã được tạo thành công. Thời gian giao hàng sẽ được xử lý trong khoảng 120 phút. Bạn có thể theo dõi trạng thái giao hàng tại trang web của chúng tôi."}
+{"id": "G24", "intent": "order_status", "reply": "Gio đơn AT027225 đã được lấy tại Nhà Sách Ông Đồ. Đơn đang trong quá trình giao. Nếu có bất kỳ câu hỏi nào, bạn có thể liên hệ lại nhé!"}
+{"id": "G25", "intent": "change_address", "reply": "Chúng mình sẽ hỗ trợ bạn đổi địa chỉ sang xóm vui. Xin vui lòng cung cấp địa chỉ mới để chúng mình thực hiện nhé!"}
+{"id": "G26", "intent": "other", "reply": "Chào bạn, bạn đang hỏi về giao thuốc không? Hiện tại, chúng tôi không giao thuốc. Các bạn có thể đến phòng bán carton boxes tại Cho Moi (12 Duong Lua) hoặc Khu Cong Nghiep (5 Duong May) để mua. Chúc bạn có ngày tốt lành!"}
+{"id": "G27", "intent": "other", "reply": "Cảm ơn bạn đã hỗ trợ. Shop chúng tôi đang cung cấp carton boxes tại Cho Moi và Khu Cong Nghiep. Bạn có thể chọn địa điểm cụ thể để được hỗ trợ tốt hơn nhé!"}
+{"id": "G28", "intent": "other", "reply": "Văn phòng ở Chợ Mới nằm tại Khu Công Nghiệp, số 5 Đường May."}
+{"id": "G29", "intent": "other", "reply": "Bạn cần mở ứng dụng và chọn 'Tạo đơn' để tạo đơn mới."}
+{"id": "G30", "intent": "order_status", "reply": "Bạn có thể tạo đơn mới bằng cách mở ứng dụng và chọn 'Tạo đơn' để bắt đầu."}
+{"id": "G31", "intent": "order_status", "reply": "Đơn của bạn đã được giao cho nhân viên tại Doi Thong. Thời gian giao là 30 phút. Bạn có thể theo dõi trạng thái tại đây: https://www.giaohanganh.com/order/AT052317"}
+{"id": "G32", "intent": "order_status", "reply": "Đơn AT058840 đang được giao bởi người gửi là Ha."}
+{"id": "G33", "intent": "refund", "reply": "Cảm ơn bạn đã thông báo. Đội hỗ trợ sẽ xử lý đơn của bạn và hoàn tiền cho bạn. Bạn có thể hủy đơn và thanh toán lại trong vòng 24 giờ."}
+{"id": "G34", "intent": "change_address", "reply": "Đã đổi địa chỉ đơn AT064511 sang Chung Cư Xóm Vui block B. Địa chỉ mới sẽ được cập nhật trước khi đơn hàng được giao. Bạn đợi thêm 15 phút để đơn hàng được xử lý."}
+{"id": "G35", "intent": "order_status", "reply": "Cảm ơn bạn đã mua hàng! Đơn AT067725 đã được giao thành công lúc 10:05. Chúc bạn có trải nghiệm mua sắm tuyệt vời nhé!"}
+{"id": "G36", "intent": "refund", "reply": "Đơn hàng AT070158 đã được xác nhận hoàn tiền 500.000 đồng. Xin cảm ơn và chúc bạn một ngày tốt lành!"}
+{"id": "G37", "intent": "order_status", "reply": "Gửi mã voucher cho tôi đi nhé! Nếu bạn cần hỗ trợ thêm, hãy nhắn给我 nhé."}
+{"id": "G38", "intent": "order_status", "reply": "Đơn AT076610 đang trong quá trình giao hàng. Thời gian tới là 5 phút, bạn có thể báo sếp được nhé! Chúc bạn một ngày tốt lành!"}
+{"id": "G39", "intent": "order_status", "reply": "Đơn AT079946 đang trong quá trình giao hàng. Thời gian giao hàng dự kiến là 25 phút. Bạn có thể đợi thêm 70 phút hoặc liên hệ lại để cập nhật tình trạng cụ thể."}
+{"id": "G40", "intent": "order_status", "reply": "Cám ơn bạn đã báo đơn AT082213 đã giao. Hàng đã được giao tại Xom Vui, bạn hãy kiểm tra lại địa điểm giao và thời gian giao để đảm bảo đã nhận được hàng. Nếu có bất kỳ vấn đề nào, bạn có thể liên hệ lại chúng tôi để hỗ trợ thêm."}

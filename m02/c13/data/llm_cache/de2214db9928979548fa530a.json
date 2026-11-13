@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien se check truoc 24 gio. Voucher 100k se được tra cuu khi truoc khi don duoc giao.", "intent": "refund"}, "raw": "{ \"reply\": \"Nhan vien se check truoc 24 gio. Voucher 100k se được tra cuu khi truoc khi don duoc giao.\", \"intent\": \"refund\" }", "in_tok": 497, "out_tok": 53, "seconds": 27.2, "model": "qwen3:1.7b"}

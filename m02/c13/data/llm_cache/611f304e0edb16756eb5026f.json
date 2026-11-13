@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Chúng tôi xin lỗi vì đơn vị của bạn trễ. Nhân viên sẽ kiểm tra và thông báo trạng thái trong 24 giờ.", "intent": "order_status"}, "raw": "{ \"reply\": \"Chúng tôi xin lỗi vì đơn vị của bạn trễ. Nhân viên sẽ kiểm tra và thông báo trạng thái trong 24 giờ.\", \"intent\": \"order_status\" }", "in_tok": 409, "out_tok": 45, "seconds": 21.97, "model": "qwen3:1.7b"}

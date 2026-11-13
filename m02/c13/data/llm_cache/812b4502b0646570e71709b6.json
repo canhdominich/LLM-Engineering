@@ -1,0 +1,1 @@
+{"parsed": {"problem": "Check if the reply matches the order and policy", "facts_correct": false, "answers_question": true, "follows_policy": true}, "raw": "{ \"problem\": \"Check if the reply matches the order and policy\", \"facts_correct\": false, \"answers_question\": true, \"follows_policy\": true }", "in_tok": 507, "out_tok": 35, "seconds": 12.51, "model": "qwen3:1.7b"}

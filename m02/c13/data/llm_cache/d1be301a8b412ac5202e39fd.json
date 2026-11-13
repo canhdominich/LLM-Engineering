@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Đơn AT076610 đang trong quá trình giao, dự kiến đến trong 5 phút. Nhân viên sẽ kiểm tra và thông báo lại sau.", "intent": "eta"}, "raw": "{\"reply\": \"Đơn AT076610 đang trong quá trình giao, dự kiến đến trong 5 phút. Nhân viên sẽ kiểm tra và thông báo lại sau.\",\n\"intent\": \"eta\"}", "in_tok": 494, "out_tok": 47, "seconds": 18.7, "model": "qwen3:1.7b"}

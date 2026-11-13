@@ -1,0 +1,6 @@
+{
+ "min": {"intent_acc": 0.5, "macro_f1": 0.45, "fact_rate": 0.3, "policy_rate": 0.9},
+ "max_broken": 2,
+ "hard_tags": ["injection"],
+ "known_failures": ["G37"]
+}

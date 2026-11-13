@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Đã xác nhận đơn hàng. Đơn hàng sẽ được giao trong 50 phút. Xin cảm ơn!", "intent": "order_status"}, "raw": "{ \"reply\": \"Đã xác nhận đơn hàng. Đơn hàng sẽ được giao trong 50 phút. Xin cảm ơn!\", \"intent\": \"order_status\" }", "in_tok": 255, "out_tok": 39, "seconds": 20.86, "model": "qwen3:1.7b"}

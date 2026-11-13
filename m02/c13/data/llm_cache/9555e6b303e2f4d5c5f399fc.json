@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien co bao xet don hoa toc ma tre 50 phut, tht vong qua.", "intent": "order_status"}, "raw": "{ \"reply\": \"Nhan vien co bao xet don hoa toc ma tre 50 phut, tht vong qua.\", \"intent\": \"order_status\" }", "in_tok": 410, "out_tok": 42, "seconds": 22.5, "model": "qwen3:1.7b"}

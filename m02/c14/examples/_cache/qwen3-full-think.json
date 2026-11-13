@@ -1,0 +1,98 @@
+{
+"M0001": {
+"text": "change_address",
+"in_tok": 256,
+"cached_tok": 230,
+"out_tok": 402,
+"seconds": 59.44,
+"date": "2026-11-06"
+},
+"M0003": {
+"text": "refund",
+"in_tok": 252,
+"cached_tok": 229,
+"out_tok": 163,
+"seconds": 29.83,
+"date": "2026-11-06"
+},
+"M0012": {
+"text": "change_address",
+"in_tok": 255,
+"cached_tok": 229,
+"out_tok": 908,
+"seconds": 120.67,
+"date": "2026-11-06"
+},
+"M0016": {
+"text": "change_address",
+"in_tok": 256,
+"cached_tok": 157,
+"out_tok": 300,
+"seconds": 39.15,
+"date": "2026-11-06"
+},
+"M0018": {
+"text": "eta",
+"in_tok": 255,
+"cached_tok": 230,
+"out_tok": 216,
+"seconds": 32.98,
+"date": "2026-11-06"
+},
+"M0021": {
+"text": "complaint_late",
+"in_tok": 256,
+"cached_tok": 230,
+"out_tok": 247,
+"seconds": 39.23,
+"date": "2026-11-06"
+},
+"M0027": {
+"text": "refund",
+"in_tok": 259,
+"cached_tok": 230,
+"out_tok": 424,
+"seconds": 53.01,
+"date": "2026-11-06"
+},
+"M0051": {
+"text": "other",
+"in_tok": 251,
+"cached_tok": 230,
+"out_tok": 223,
+"seconds": 38.14,
+"date": "2026-11-06"
+},
+"M0089": {
+"text": "other",
+"in_tok": 254,
+"cached_tok": 229,
+"out_tok": 366,
+"seconds": 53.4,
+"date": "2026-11-06"
+},
+"M0099": {
+"text": "other",
+"in_tok": 251,
+"cached_tok": 229,
+"out_tok": 185,
+"seconds": 44.07,
+"date": "2026-11-06"
+},
+"M0114": {
+"text": "order_status",
+"in_tok": 258,
+"cached_tok": 229,
+"out_tok": 220,
+"seconds": 28.72,
+"date": "2026-11-06"
+},
+"M0144": {
+"text": "complaint_late",
+"in_tok": 257,
+"cached_tok": 229,
+"out_tok": 286,
+"seconds": 37.45,
+"date": "2026-11-06"
+}
+}

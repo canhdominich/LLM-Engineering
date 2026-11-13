@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien se xem ma don AT046486 va xac minh dia chi.", "intent": "change_address"}, "raw": "{ \"reply\": \"Nhan vien se xem ma don AT046486 va xac minh dia chi.\", \"intent\": \"change_address\" }", "in_tok": 477, "out_tok": 39, "seconds": 21.44, "model": "qwen3:1.7b"}

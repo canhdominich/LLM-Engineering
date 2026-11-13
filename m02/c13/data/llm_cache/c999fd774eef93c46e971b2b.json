@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien co ban thung carton khong.", "intent": "other"}, "raw": "{ \"reply\": \"Nhan vien co ban thung carton khong.\", \"intent\": \"other\" }", "in_tok": 402, "out_tok": 27, "seconds": 17.77, "model": "qwen3:1.7b"}

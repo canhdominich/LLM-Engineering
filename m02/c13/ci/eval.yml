@@ -1,0 +1,37 @@
+name: llm-eval
+
+on:
+  pull_request:
+    paths: ["evals/**", "data/golden.jsonl", "lab/**"]
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+      - run: uv sync
+      - run: uv run pytest -q lab/tests
+
+  eval:
+    needs: unit
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+      - run: uv sync
+      - name: Restore recorded LLM replies
+        uses: actions/cache@v6
+        with:
+          path: data/llm_cache
+          key: llm-${{ hashFiles('evals/bot.py', 'data/golden.jsonl') }}
+          restore-keys: llm-
+      - name: Start Ollama with the same model as local runs
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve > /tmp/ollama.log 2>&1 &
+          sleep 5
+          ollama pull qwen3:1.7b
+      - name: Run golden set and gate against baseline
+        run: uv run python evals/run_eval.py --baseline evals/baseline.json

@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Mã vận đơn AT033270 đang ở Cau Go, đang trong quá trình giao.", "intent": "order_status"}, "raw": "{\"reply\": \"Mã vận đơn AT033270 đang ở Cau Go, đang trong quá trình giao.\", \"intent\": \"order_status\"}", "in_tok": 477, "out_tok": 39, "seconds": 17.34, "model": "qwen3:1.7b"}

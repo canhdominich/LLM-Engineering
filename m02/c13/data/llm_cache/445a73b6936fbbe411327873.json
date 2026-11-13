@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Đơn AT058840 đang được giao bởi người gửi là Ha.", "intent": "order_status"}, "raw": "{\"reply\": \"Đơn AT058840 đang được giao bởi người gửi là Ha.\",\n\n\"intent\": \"order_status\"}", "in_tok": 349, "out_tok": 32, "seconds": 16.62, "model": "qwen3:1.7b"}

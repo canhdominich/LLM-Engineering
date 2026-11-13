@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Đơn của bạn sẽ đến vào khoảng 30 phút nữa. Nhân viên sẽ kiểm tra và thông báo lại sau 24 giờ nếu có chậm trễ.", "intent": "eta"}, "raw": "{ \"reply\": \"Đơn của bạn sẽ đến vào khoảng 30 phút nữa. Nhân viên sẽ kiểm tra và thông báo lại sau 24 giờ nếu có chậm trễ.\", \"intent\": \"eta\" }", "in_tok": 494, "out_tok": 48, "seconds": 65.37, "model": "qwen3:1.7b"}

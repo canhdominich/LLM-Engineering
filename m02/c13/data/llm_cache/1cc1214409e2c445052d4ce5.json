@@ -1,0 +1,1 @@
+{"parsed": {"reply": "Nhan vien co biet chua. Nhan vien se kiem tra trong 24 gio.", "intent": "refund"}, "raw": "{ \"reply\": \"Nhan vien co biet chua. Nhan vien se kiem tra trong 24 gio.\", \"intent\": \"refund\" }", "in_tok": 476, "out_tok": 40, "seconds": 25.04, "model": "qwen3:1.7b"}

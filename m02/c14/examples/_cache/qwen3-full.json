@@ -1,0 +1,506 @@
+{
+"M0001": {
+"text": "change_address",
+"in_tok": 262,
+"cached_tok": 222,
+"out_tok": 3,
+"seconds": 11.28,
+"date": "2026-11-05"
+},
+"M0003": {
+"text": "refund",
+"in_tok": 258,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 13.48,
+"date": "2026-11-05"
+},
+"M0012": {
+"text": "other",
+"in_tok": 261,
+"cached_tok": 229,
+"out_tok": 2,
+"seconds": 14.22,
+"date": "2026-11-05"
+},
+"M0016": {
+"text": "other",
+"in_tok": 262,
+"cached_tok": 229,
+"out_tok": 2,
+"seconds": 19.64,
+"date": "2026-11-05"
+},
+"M0018": {
+"text": "eta",
+"in_tok": 261,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 16.56,
+"date": "2026-11-05"
+},
+"M0021": {
+"text": "complaint_late",
+"in_tok": 262,
+"cached_tok": 230,
+"out_tok": 5,
+"seconds": 10.41,
+"date": "2026-11-05"
+},
+"M0027": {
+"text": "other",
+"in_tok": 265,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 8.88,
+"date": "2026-11-05"
+},
+"M0036": {
+"text": "refund",
+"in_tok": 263,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 7.89,
+"date": "2026-11-05"
+},
+"M0045": {
+"text": "eta",
+"in_tok": 262,
+"cached_tok": 229,
+"out_tok": 2,
+"seconds": 10.02,
+"date": "2026-11-05"
+},
+"M0049": {
+"text": "change_address",
+"in_tok": 257,
+"cached_tok": 229,
+"out_tok": 3,
+"seconds": 49.7,
+"date": "2026-11-05"
+},
+"M0051": {
+"text": "other",
+"in_tok": 257,
+"cached_tok": 229,
+"out_tok": 2,
+"seconds": 49.82,
+"date": "2026-11-05"
+},
+"M0062": {
+"text": "other",
+"in_tok": 262,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 46.73,
+"date": "2026-11-05"
+},
+"M0076": {
+"text": "change_address",
+"in_tok": 268,
+"cached_tok": 230,
+"out_tok": 3,
+"seconds": 40.34,
+"date": "2026-11-05"
+},
+"M0084": {
+"text": "other",
+"in_tok": 265,
+"cached_tok": 229,
+"out_tok": 2,
+"seconds": 15.92,
+"date": "2026-11-05"
+},
+"M0089": {
+"text": "other",
+"in_tok": 260,
+"cached_tok": 222,
+"out_tok": 2,
+"seconds": 9.15,
+"date": "2026-11-05"
+},
+"M0091": {
+"text": "eta",
+"in_tok": 261,
+"cached_tok": 177,
+"out_tok": 2,
+"seconds": 12.76,
+"date": "2026-11-05"
+},
+"M0096": {
+"text": "other",
+"in_tok": 274,
+"cached_tok": 177,
+"out_tok": 2,
+"seconds": 18.09,
+"date": "2026-11-05"
+},
+"M0097": {
+"text": "other",
+"in_tok": 258,
+"cached_tok": 177,
+"out_tok": 2,
+"seconds": 13.08,
+"date": "2026-11-05"
+},
+"M0099": {
+"text": "other",
+"in_tok": 257,
+"cached_tok": 177,
+"out_tok": 2,
+"seconds": 14.51,
+"date": "2026-11-05"
+},
+"M0104": {
+"text": "eta",
+"in_tok": 264,
+"cached_tok": 177,
+"out_tok": 2,
+"seconds": 15.38,
+"date": "2026-11-05"
+},
+"M0106": {
+"text": "other",
+"in_tok": 257,
+"cached_tok": 177,
+"out_tok": 2,
+"seconds": 10.47,
+"date": "2026-11-05"
+},
+"M0114": {
+"text": "other",
+"in_tok": 264,
+"cached_tok": 177,
+"out_tok": 2,
+"seconds": 11.07,
+"date": "2026-11-05"
+},
+"M0117": {
+"text": "refund",
+"in_tok": 264,
+"cached_tok": 177,
+"out_tok": 2,
+"seconds": 10.26,
+"date": "2026-11-05"
+},
+"M0123": {
+"text": "other",
+"in_tok": 255,
+"cached_tok": 177,
+"out_tok": 2,
+"seconds": 11.81,
+"date": "2026-11-05"
+},
+"M0130": {
+"text": "refund",
+"in_tok": 260,
+"cached_tok": 177,
+"out_tok": 2,
+"seconds": 10.7,
+"date": "2026-11-05"
+},
+"M0131": {
+"text": "change_address",
+"in_tok": 269,
+"cached_tok": 177,
+"out_tok": 3,
+"seconds": 11.09,
+"date": "2026-11-05"
+},
+"M0135": {
+"text": "refund",
+"in_tok": 262,
+"cached_tok": 229,
+"out_tok": 2,
+"seconds": 12.41,
+"date": "2026-11-05"
+},
+"M0140": {
+"text": "other",
+"in_tok": 259,
+"cached_tok": 229,
+"out_tok": 2,
+"seconds": 17.65,
+"date": "2026-11-05"
+},
+"M0141": {
+"text": "eta",
+"in_tok": 261,
+"cached_tok": 177,
+"out_tok": 2,
+"seconds": 38.22,
+"date": "2026-11-05"
+},
+"M0144": {
+"text": "complaint_late",
+"in_tok": 263,
+"cached_tok": 230,
+"out_tok": 5,
+"seconds": 15.09,
+"date": "2026-11-05"
+},
+"M0152": {
+"text": "change_address",
+"in_tok": 265,
+"cached_tok": 230,
+"out_tok": 3,
+"seconds": 3.63,
+"date": "2026-11-05"
+},
+"M0155": {
+"text": "change_address",
+"in_tok": 270,
+"cached_tok": 230,
+"out_tok": 3,
+"seconds": 1.9,
+"date": "2026-11-05"
+},
+"M0161": {
+"text": "complaint_late",
+"in_tok": 263,
+"cached_tok": 230,
+"out_tok": 5,
+"seconds": 1.77,
+"date": "2026-11-05"
+},
+"M0164": {
+"text": "other",
+"in_tok": 263,
+"cached_tok": 229,
+"out_tok": 2,
+"seconds": 18.5,
+"date": "2026-11-05"
+},
+"M0169": {
+"text": "change_address",
+"in_tok": 263,
+"cached_tok": 230,
+"out_tok": 3,
+"seconds": 21.4,
+"date": "2026-11-05"
+},
+"M0174": {
+"text": "refund",
+"in_tok": 257,
+"cached_tok": 229,
+"out_tok": 2,
+"seconds": 18.17,
+"date": "2026-11-05"
+},
+"M0176": {
+"text": "other",
+"in_tok": 265,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 17.65,
+"date": "2026-11-05"
+},
+"M0177": {
+"text": "other",
+"in_tok": 273,
+"cached_tok": 229,
+"out_tok": 2,
+"seconds": 21.85,
+"date": "2026-11-05"
+},
+"M0179": {
+"text": "other",
+"in_tok": 264,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 19.4,
+"date": "2026-11-06"
+},
+"M0181": {
+"text": "other",
+"in_tok": 256,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 24.26,
+"date": "2026-11-06"
+},
+"M0182": {
+"text": "complaint_late",
+"in_tok": 260,
+"cached_tok": 230,
+"out_tok": 5,
+"seconds": 25.89,
+"date": "2026-11-06"
+},
+"M0183": {
+"text": "other",
+"in_tok": 254,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 18.67,
+"date": "2026-11-06"
+},
+"M0186": {
+"text": "refund",
+"in_tok": 261,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 25.23,
+"date": "2026-11-06"
+},
+"M0198": {
+"text": "other",
+"in_tok": 261,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 35.35,
+"date": "2026-11-06"
+},
+"M0218": {
+"text": "change_address",
+"in_tok": 263,
+"cached_tok": 230,
+"out_tok": 3,
+"seconds": 30.45,
+"date": "2026-11-06"
+},
+"M0219": {
+"text": "complaint_late",
+"in_tok": 263,
+"cached_tok": 230,
+"out_tok": 5,
+"seconds": 24.16,
+"date": "2026-11-06"
+},
+"M0225": {
+"text": "complaint_late",
+"in_tok": 262,
+"cached_tok": 230,
+"out_tok": 5,
+"seconds": 21.1,
+"date": "2026-11-06"
+},
+"M0228": {
+"text": "complaint_late",
+"in_tok": 259,
+"cached_tok": 230,
+"out_tok": 5,
+"seconds": 21.63,
+"date": "2026-11-06"
+},
+"M0230": {
+"text": "other",
+"in_tok": 265,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 18.69,
+"date": "2026-11-06"
+},
+"M0236": {
+"text": "refund",
+"in_tok": 264,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 22.51,
+"date": "2026-11-06"
+},
+"M0242": {
+"text": "refund",
+"in_tok": 264,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 15.82,
+"date": "2026-11-06"
+},
+"M0252": {
+"text": "complaint_late",
+"in_tok": 262,
+"cached_tok": 232,
+"out_tok": 5,
+"seconds": 16.37,
+"date": "2026-11-06"
+},
+"M0262": {
+"text": "eta",
+"in_tok": 261,
+"cached_tok": 232,
+"out_tok": 2,
+"seconds": 23.31,
+"date": "2026-11-06"
+},
+"M0267": {
+"text": "change_address",
+"in_tok": 262,
+"cached_tok": 229,
+"out_tok": 3,
+"seconds": 32.1,
+"date": "2026-11-06"
+},
+"M0273": {
+"text": "refund",
+"in_tok": 262,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 14.73,
+"date": "2026-11-06"
+},
+"M0276": {
+"text": "complaint_late",
+"in_tok": 258,
+"cached_tok": 230,
+"out_tok": 5,
+"seconds": 24.09,
+"date": "2026-11-06"
+},
+"M0279": {
+"text": "refund",
+"in_tok": 264,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 28.94,
+"date": "2026-11-06"
+},
+"M0281": {
+"text": "change_address",
+"in_tok": 271,
+"cached_tok": 229,
+"out_tok": 3,
+"seconds": 20.91,
+"date": "2026-11-06"
+},
+"M0289": {
+"text": "refund",
+"in_tok": 267,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 30.24,
+"date": "2026-11-06"
+},
+"M0290": {
+"text": "refund",
+"in_tok": 264,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 23.67,
+"date": "2026-11-06"
+},
+"M0291": {
+"text": "other",
+"in_tok": 265,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 23.8,
+"date": "2026-11-06"
+},
+"M0295": {
+"text": "refund",
+"in_tok": 264,
+"cached_tok": 230,
+"out_tok": 2,
+"seconds": 22.09,
+"date": "2026-11-06"
+},
+"M0300": {
+"text": "change_address",
+"in_tok": 263,
+"cached_tok": 229,
+"out_tok": 3,
+"seconds": 24.21,
+"date": "2026-11-06"
+}
+}
